@@ -26,3 +26,9 @@ jupyter lab Practicas/practica_01_eda.ipynb
 En JupyterLab, ejecuta todas las celdas en orden desde un kernel nuevo. La fuente se actualiza, por lo que una nueva descarga puede producir cifras distintas de las salidas guardadas. El análisis es descriptivo y no establece relaciones causales.
 
 Para la entrega, comparte el enlace de este repositorio y sube `Practicas/practica_01_eda.ipynb` a la plataforma del curso.
+
+# Práctica 02: preprocesamiento de Breast Cancer Wisconsin
+
+En [practica_02_preprocesamiento_breast_cancer_wisconsin.ipynb](practica_02_preprocesamiento_breast_cancer_wisconsin.ipynb) reviso el conjunto original Breast Cancer Wisconsin y aplico tres técnicas: completar valores faltantes con la mediana, crear una variable a partir de dos mediciones y reducir las nueve mediciones a dos componentes con PCA. El notebook contiene las gráficas y los resultados de mi ejecución.
+
+El archivo de datos no está incluido en este repositorio. Descarga `breast-cancer-wisconsin.data` desde la [página del conjunto original de UCI](https://archive.ics.uci.edu/dataset/15/breast+cancer+wisconsin+original). En Colab, ejecuta el notebook y sube el archivo cuando lo pida. Para usarlo localmente, guarda el archivo de datos en `Practicas/` y ejecuta el notebook desde un kernel de Python con `numpy`, `pandas`, `matplotlib`, `seaborn` y `scikit-learn` instalados.
