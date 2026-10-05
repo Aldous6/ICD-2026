@@ -1,0 +1,2 @@
+# Mantener los bytes originales del dataset para su comprobación SHA-256.
+Practicas/datos/default_credit_card_clients.csv -text
