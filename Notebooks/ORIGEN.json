@@ -1,0 +1,472 @@
+{
+  "repository": "https://github.com/husseinlopez/PythonDataScienceHandbook",
+  "commit": "d66231454ef753818dc9213c9b5942e067266966",
+  "source_directory": "notebooks_v1",
+  "execution_provenance": "Execution counts and outputs preserved byte-for-byte from the source notebooks.",
+  "files": [
+    {
+      "path": "LICENSE-CODE",
+      "git_blob_sha1": "d9e03dce0ed0b41e67760f281763e012a02182f3"
+    },
+    {
+      "path": "LICENSE-TEXT",
+      "git_blob_sha1": "30b08e74db31c193422f81d6290ce6b6b52e0540"
+    },
+    {
+      "path": "00.00-Preface.ipynb",
+      "git_blob_sha1": "7d635a808e0a242d60840e58ef68762ad3c5b550"
+    },
+    {
+      "path": "01.00-IPython-Beyond-Normal-Python.ipynb",
+      "git_blob_sha1": "5d01277e6885f96ebcbc184cdcd82ab54704a732"
+    },
+    {
+      "path": "01.01-Help-And-Documentation.ipynb",
+      "git_blob_sha1": "39879ee90bb04f1136c1f7f37b41cc3fcc2ed124"
+    },
+    {
+      "path": "01.02-Shell-Keyboard-Shortcuts.ipynb",
+      "git_blob_sha1": "f50e9fb1c4e5ddbdf7288ee42950b4a2bad0de22"
+    },
+    {
+      "path": "01.03-Magic-Commands.ipynb",
+      "git_blob_sha1": "e5ee9d164561b0600186e02b5b0faff09a870af5"
+    },
+    {
+      "path": "01.04-Input-Output-History.ipynb",
+      "git_blob_sha1": "c8e5463febd8a5894565fa2e6841c376b91f5feb"
+    },
+    {
+      "path": "01.05-IPython-And-Shell-Commands.ipynb",
+      "git_blob_sha1": "6fe0dd875ca0b78953e77672f7ce4ccf9099097f"
+    },
+    {
+      "path": "01.06-Errors-and-Debugging.ipynb",
+      "git_blob_sha1": "a7625d5ef50000c77649d48b873ae3bbb37ef889"
+    },
+    {
+      "path": "01.07-Timing-and-Profiling.ipynb",
+      "git_blob_sha1": "76f0db5cbd8b27fa2c72bffdbd9f02e4e004ed03"
+    },
+    {
+      "path": "01.08-More-IPython-Resources.ipynb",
+      "git_blob_sha1": "ad87f002dd9432e30d20cc0c59ee1b027b8da174"
+    },
+    {
+      "path": "02.00-Introduction-to-NumPy.ipynb",
+      "git_blob_sha1": "e527c435526effd7dbb77021f1a6cd46f8b51242"
+    },
+    {
+      "path": "02.01-Understanding-Data-Types.ipynb",
+      "git_blob_sha1": "82b128e486cc58fd9d4297115dfa0abe0aa5c90d"
+    },
+    {
+      "path": "02.02-The-Basics-Of-NumPy-Arrays.ipynb",
+      "git_blob_sha1": "f9dad509a150cc1f0e67e23ae088ef66ba526b92"
+    },
+    {
+      "path": "02.03-Computation-on-arrays-ufuncs.ipynb",
+      "git_blob_sha1": "5296859e578fb8197c634a6e52d6d609e5d78804"
+    },
+    {
+      "path": "02.04-Computation-on-arrays-aggregates.ipynb",
+      "git_blob_sha1": "53e6462fd3efc0fc2f841fda91bda11c7dfaa50f"
+    },
+    {
+      "path": "02.05-Computation-on-arrays-broadcasting.ipynb",
+      "git_blob_sha1": "c1cae6ddfb04c5427531dc0cb774cb4fb41543df"
+    },
+    {
+      "path": "02.06-Boolean-Arrays-and-Masks.ipynb",
+      "git_blob_sha1": "e17269f9d2d32fd2ebdc6085c90c0ca665b7f046"
+    },
+    {
+      "path": "02.07-Fancy-Indexing.ipynb",
+      "git_blob_sha1": "00cc188a5053d3e337fca4c6cbdd959397c383a2"
+    },
+    {
+      "path": "02.08-Sorting.ipynb",
+      "git_blob_sha1": "8be3373c0b191113edadff7497fe1d9631ef0fe7"
+    },
+    {
+      "path": "02.09-Structured-Data-NumPy.ipynb",
+      "git_blob_sha1": "ea4ee0bec0e46dc58bf113ef2c3d098b0e2927a8"
+    },
+    {
+      "path": "03.00-Introduction-to-Pandas.ipynb",
+      "git_blob_sha1": "9a5487ae9540345924e11a46c88c9d499b54b312"
+    },
+    {
+      "path": "03.01-Introducing-Pandas-Objects.ipynb",
+      "git_blob_sha1": "2e5f8f7b3159ec17f917f96d2318caab6bb2c259"
+    },
+    {
+      "path": "03.02-Data-Indexing-and-Selection.ipynb",
+      "git_blob_sha1": "9cce1353ff02d7af7dc9b490db9140a4a2ec22c7"
+    },
+    {
+      "path": "03.03-Operations-in-Pandas.ipynb",
+      "git_blob_sha1": "6206ac790bc137717efd398abd63c69d112f1ab8"
+    },
+    {
+      "path": "03.04-Missing-Values.ipynb",
+      "git_blob_sha1": "180ca09e780eca4dd810e39e6cc8e1870bdf1bd2"
+    },
+    {
+      "path": "03.05-Hierarchical-Indexing.ipynb",
+      "git_blob_sha1": "1122989bb5448858eb02d19581e0db20a5f4bff0"
+    },
+    {
+      "path": "03.06-Concat-And-Append.ipynb",
+      "git_blob_sha1": "7566c851c1e6a2f607d3722148ee88e9721aa04c"
+    },
+    {
+      "path": "03.07-Merge-and-Join.ipynb",
+      "git_blob_sha1": "c46383e577d26c160055675490b1cbf8e8aad5b1"
+    },
+    {
+      "path": "03.08-Aggregation-and-Grouping.ipynb",
+      "git_blob_sha1": "be00723d132360cb63987dd7f419d46a99032c48"
+    },
+    {
+      "path": "03.09-Pivot-Tables.ipynb",
+      "git_blob_sha1": "717549875b8ebced303696bcf79783a9a699e99f"
+    },
+    {
+      "path": "03.10-Working-With-Strings.ipynb",
+      "git_blob_sha1": "75c004b84641fa3e74f006deffd91ff812281f0c"
+    },
+    {
+      "path": "03.11-Working-with-Time-Series.ipynb",
+      "git_blob_sha1": "c9b4d828b5ee4181ec5b437c23a200789534b615"
+    },
+    {
+      "path": "03.12-Performance-Eval-and-Query.ipynb",
+      "git_blob_sha1": "b6e2a142bc5b98eebbf5773e3a72d0149860c3ab"
+    },
+    {
+      "path": "03.13-Further-Resources.ipynb",
+      "git_blob_sha1": "16c8a8ebd7ff38739cfc0903b60d7bbc95c8f998"
+    },
+    {
+      "path": "04.00-Introduction-To-Matplotlib.ipynb",
+      "git_blob_sha1": "ebf07e3bd2c27d412783ff4f046dd062b638abe9"
+    },
+    {
+      "path": "04.01-Simple-Line-Plots.ipynb",
+      "git_blob_sha1": "03acda4e3fbace67155f03e2e6c22c4af005df64"
+    },
+    {
+      "path": "04.02-Simple-Scatter-Plots.ipynb",
+      "git_blob_sha1": "eaf6c42493b8e57800b385e1418d07b8bf844a11"
+    },
+    {
+      "path": "04.03-Errorbars.ipynb",
+      "git_blob_sha1": "094ae9c89f63bcededbdcb3e7a95da9094547941"
+    },
+    {
+      "path": "04.04-Density-and-Contour-Plots.ipynb",
+      "git_blob_sha1": "3fea071b458d10860758f15e2a303eff32384fa5"
+    },
+    {
+      "path": "04.05-Histograms-and-Binnings.ipynb",
+      "git_blob_sha1": "1873ff7c5df5fd288c911f11e53f8042363465f8"
+    },
+    {
+      "path": "04.06-Customizing-Legends.ipynb",
+      "git_blob_sha1": "ada12a04543c25867919549a63aaa691ef01cdab"
+    },
+    {
+      "path": "04.07-Customizing-Colorbars.ipynb",
+      "git_blob_sha1": "6620f4a494ffb1672ea31b28af5d7a942c9512f9"
+    },
+    {
+      "path": "04.08-Multiple-Subplots.ipynb",
+      "git_blob_sha1": "e06195cfc6005589fb05905e448914fbdfb60ee8"
+    },
+    {
+      "path": "04.09-Text-and-Annotation.ipynb",
+      "git_blob_sha1": "621eeaed34b6ca94a032060e291436b59faf62f0"
+    },
+    {
+      "path": "04.10-Customizing-Ticks.ipynb",
+      "git_blob_sha1": "b3b6a820cf45cf630da874a1c9c09d25c308e780"
+    },
+    {
+      "path": "04.11-Settings-and-Stylesheets.ipynb",
+      "git_blob_sha1": "bc8b6bcde45aac0d5cb65eb1334ad53a07019f81"
+    },
+    {
+      "path": "04.12-Three-Dimensional-Plotting.ipynb",
+      "git_blob_sha1": "ffdc3d875321fbced69fbac90d106360ac0afde5"
+    },
+    {
+      "path": "04.13-Geographic-Data-With-Basemap.ipynb",
+      "git_blob_sha1": "b724893adf57ab9ec99d8a90d60d4fe98ef743cd"
+    },
+    {
+      "path": "04.14-Visualization-With-Seaborn.ipynb",
+      "git_blob_sha1": "21817be215922acb12d3dd3a17abbc33ac9efa3c"
+    },
+    {
+      "path": "04.15-Further-Resources.ipynb",
+      "git_blob_sha1": "4aed29225e381ae5e6497daa60aa97ff8c06ea61"
+    },
+    {
+      "path": "05.00-Machine-Learning.ipynb",
+      "git_blob_sha1": "caff9877c8bdd11827df5daa5b43822a4e6a87c9"
+    },
+    {
+      "path": "05.01-What-Is-Machine-Learning.ipynb",
+      "git_blob_sha1": "1dd061dae9e38033185f5aac45eccf9c253d9f88"
+    },
+    {
+      "path": "05.02-Introducing-Scikit-Learn.ipynb",
+      "git_blob_sha1": "8d3ecb877456f02f3b4dd41d3cd4e0634d3e06ff"
+    },
+    {
+      "path": "05.03-Hyperparameters-and-Model-Validation.ipynb",
+      "git_blob_sha1": "3edcada261cd77924c9f3fe0aba27aeaab57ed00"
+    },
+    {
+      "path": "05.04-Feature-Engineering.ipynb",
+      "git_blob_sha1": "7315fb277f92f9e1aca877273f765bc2df7b0634"
+    },
+    {
+      "path": "05.05-Naive-Bayes.ipynb",
+      "git_blob_sha1": "f5d492a420833a94a7bb3f5fd9eea55436954f1a"
+    },
+    {
+      "path": "05.06-Linear-Regression.ipynb",
+      "git_blob_sha1": "ccecf62924a64fc759a07af20fd8a17840f50680"
+    },
+    {
+      "path": "05.07-Support-Vector-Machines.ipynb",
+      "git_blob_sha1": "31cf9508b493762088ca054522628ef8f5a357bd"
+    },
+    {
+      "path": "05.08-Random-Forests.ipynb",
+      "git_blob_sha1": "f567f238edc27e60282946a2ab94c78d3c2a2dfa"
+    },
+    {
+      "path": "05.09-Principal-Component-Analysis.ipynb",
+      "git_blob_sha1": "065b1f4a758b8d29636fc5e5a7a62d0b95d9c364"
+    },
+    {
+      "path": "05.10-Manifold-Learning.ipynb",
+      "git_blob_sha1": "7ec547ba95a44bd37aff34009c34fb2d59b5e470"
+    },
+    {
+      "path": "05.11-K-Means.ipynb",
+      "git_blob_sha1": "8907d80cf1572c2d8e94d06d0ab41ae841bdd324"
+    },
+    {
+      "path": "05.12-Gaussian-Mixtures.ipynb",
+      "git_blob_sha1": "f5c4d7358070d1122efb937816ae3c919f258708"
+    },
+    {
+      "path": "05.13-Kernel-Density-Estimation.ipynb",
+      "git_blob_sha1": "5ddf8b59ac2dee49ea0e84e52164831b27a8a220"
+    },
+    {
+      "path": "05.14-Image-Features.ipynb",
+      "git_blob_sha1": "47ddff7da6975ff0a41f9ed9ad3f0d109a255fdf"
+    },
+    {
+      "path": "05.15-Learning-More.ipynb",
+      "git_blob_sha1": "17d8cc77c0217148198e3a95063ada1fa02c51f6"
+    },
+    {
+      "path": "06.00-Figure-Code.ipynb",
+      "git_blob_sha1": "73940a1c10be06225e30850b0aa4717da4bf2e66"
+    },
+    {
+      "path": "Index.ipynb",
+      "git_blob_sha1": "a368faa8431c7d7b120c83a265a52f85c3b6fc2c"
+    },
+    {
+      "path": "Untitled.ipynb",
+      "git_blob_sha1": "363fcab7ed6e9634e198cf5555ceb88932c9a245"
+    },
+    {
+      "path": "data/BicycleWeather.csv",
+      "git_blob_sha1": "41fc503cdd86a6ebceb5d8e4b7fbd94df2a3b51c"
+    },
+    {
+      "path": "data/Seattle2014.csv",
+      "git_blob_sha1": "4615ae3cf2ae59e7e222520ce5548444bf4adf0e"
+    },
+    {
+      "path": "data/births.csv",
+      "git_blob_sha1": "4a5bb7aef2e53ec386148a8b275328ae2f4ae0ea"
+    },
+    {
+      "path": "data/california_cities.csv",
+      "git_blob_sha1": "b0be3a1248840ba68d6b2fb136d578b1201b61d4"
+    },
+    {
+      "path": "data/president_heights.csv",
+      "git_blob_sha1": "ade149d72bd52d7d2c0fe472d327e0f11bc752e4"
+    },
+    {
+      "path": "data/state-abbrevs.csv",
+      "git_blob_sha1": "6d4db366fdfff3fa8383dcc479fdf56e6ff66635"
+    },
+    {
+      "path": "data/state-areas.csv",
+      "git_blob_sha1": "322345c52c516a827ed8ca5105f24cb7ce61cf14"
+    },
+    {
+      "path": "data/state-population.csv",
+      "git_blob_sha1": "c76110ea13cb4185b1f4dfcbc49d21ad6f1c4492"
+    },
+    {
+      "path": "figures/02.05-broadcasting.png",
+      "git_blob_sha1": "26999961baf00acf02f76e7f3f915047b1e4d2be"
+    },
+    {
+      "path": "figures/03.08-split-apply-combine.png",
+      "git_blob_sha1": "034abaf56bed1e877eb1e1a7b72174957ce635fa"
+    },
+    {
+      "path": "figures/05.01-classification-1.png",
+      "git_blob_sha1": "202e129ab071d3258552cdf0e611f0dba0884ecc"
+    },
+    {
+      "path": "figures/05.01-classification-2.png",
+      "git_blob_sha1": "21b790f921484406112f767fef5a93d4d85b0a44"
+    },
+    {
+      "path": "figures/05.01-classification-3.png",
+      "git_blob_sha1": "e05ed45861678deba4e3e11527211f4d7a8d8dee"
+    },
+    {
+      "path": "figures/05.01-clustering-1.png",
+      "git_blob_sha1": "394bb01d55092661b052b4b58746f96307c154fe"
+    },
+    {
+      "path": "figures/05.01-clustering-2.png",
+      "git_blob_sha1": "4ac3cc1021e2e4f7543f8c01d0e0eb3a0ae86e56"
+    },
+    {
+      "path": "figures/05.01-dimesionality-1.png",
+      "git_blob_sha1": "1bf864035d3606a7f316111776b80f4ce6faf242"
+    },
+    {
+      "path": "figures/05.01-dimesionality-2.png",
+      "git_blob_sha1": "7be22a560cea2b1454f2b037cb71031a94c8f99b"
+    },
+    {
+      "path": "figures/05.01-regression-1.png",
+      "git_blob_sha1": "ac88b593b569be8de7e15155fc207f00125598e3"
+    },
+    {
+      "path": "figures/05.01-regression-2.png",
+      "git_blob_sha1": "8b190e30764f232c4aad72d0fa1fc9dd4f83180f"
+    },
+    {
+      "path": "figures/05.01-regression-3.png",
+      "git_blob_sha1": "b3239e992754bf4a885c73f31624d9d393aff2ae"
+    },
+    {
+      "path": "figures/05.01-regression-4.png",
+      "git_blob_sha1": "86cb979b7aa7f0b4e5c8ed5fabc6faf2d4a9ce7d"
+    },
+    {
+      "path": "figures/05.02-samples-features.png",
+      "git_blob_sha1": "c37e3e6472f73c3ed3a4e1ad3fbc062ac39a6e6f"
+    },
+    {
+      "path": "figures/05.03-2-fold-CV.png",
+      "git_blob_sha1": "f945b5e6626bf048eb5065f0aac050dbed9cd9ba"
+    },
+    {
+      "path": "figures/05.03-5-fold-CV.png",
+      "git_blob_sha1": "fcdd21a6f377be0943af861bb918317316569e0a"
+    },
+    {
+      "path": "figures/05.03-bias-variance-2.png",
+      "git_blob_sha1": "f682f261e435b7b219b0b4075da218827a39af91"
+    },
+    {
+      "path": "figures/05.03-bias-variance.png",
+      "git_blob_sha1": "873f13d809e17dd8d5d84f94760b7a8e32c2591a"
+    },
+    {
+      "path": "figures/05.03-learning-curve.png",
+      "git_blob_sha1": "b7d65ebfb5bcc06e3b2f7b2f794330734e4043d3"
+    },
+    {
+      "path": "figures/05.03-validation-curve.png",
+      "git_blob_sha1": "edcfece92152cdbab1bdb195b4b349b275569855"
+    },
+    {
+      "path": "figures/05.05-gaussian-NB.png",
+      "git_blob_sha1": "2b2b1d056c769bbfed070049ca4cd79e5dc2732c"
+    },
+    {
+      "path": "figures/05.06-gaussian-basis.png",
+      "git_blob_sha1": "c19c4f3e8e6a63b3efbafd790e8d5b0aeefef130"
+    },
+    {
+      "path": "figures/05.08-decision-tree-levels.png",
+      "git_blob_sha1": "62157827e6e79594b12cb772a112e9b9b005109a"
+    },
+    {
+      "path": "figures/05.08-decision-tree-overfitting.png",
+      "git_blob_sha1": "c051c549fac5055e87842f96a76ff9ee29318336"
+    },
+    {
+      "path": "figures/05.08-decision-tree.png",
+      "git_blob_sha1": "afcf773a895ce308786269c7799a886cf3dd43b0"
+    },
+    {
+      "path": "figures/05.09-PCA-rotation.png",
+      "git_blob_sha1": "fdc678f2619bf3d7d86c3b7f0750fc3d726afd01"
+    },
+    {
+      "path": "figures/05.09-digits-pca-components.png",
+      "git_blob_sha1": "94e2833ae3a217e4b5b28fae107e616e4c3ec5a6"
+    },
+    {
+      "path": "figures/05.09-digits-pixel-components.png",
+      "git_blob_sha1": "9eadc01ff9a20cd5ac199f89f6e3ffca1e2968fe"
+    },
+    {
+      "path": "figures/05.10-LLE-vs-MDS.png",
+      "git_blob_sha1": "e9562f66d71109b8ecf76fef7aaec5e49b50e869"
+    },
+    {
+      "path": "figures/05.11-expectation-maximization.png",
+      "git_blob_sha1": "9c0a7e4bc77ee5a812146dfbb29d2c9a4b24d4bf"
+    },
+    {
+      "path": "figures/05.12-covariance-type.png",
+      "git_blob_sha1": "013425b9c5a66d693ab1df71e9958aafaa93a65f"
+    },
+    {
+      "path": "figures/Data_Science_VD.png",
+      "git_blob_sha1": "09c0085f6eca2c57227116caf8fc08ee95a14ddb"
+    },
+    {
+      "path": "figures/PDSH-cover-small.png",
+      "git_blob_sha1": "79cbfd0aab263cdbcf61a8831ad203e0e4760164"
+    },
+    {
+      "path": "figures/PDSH-cover.png",
+      "git_blob_sha1": "bc94b3b0209834d602c00e94f8f3ba75fd2c09ec"
+    },
+    {
+      "path": "figures/array_vs_list.png",
+      "git_blob_sha1": "bbea5ad4b08e666bcd0468c8f5ddd61b937ef45f"
+    },
+    {
+      "path": "figures/cint_vs_pyint.png",
+      "git_blob_sha1": "0b976a94160e27e2eb919bbd70f8f468dc51f716"
+    },
+    {
+      "path": "helpers_05_08.py",
+      "git_blob_sha1": "0f3b15aa985c1c3d476d89cadbeee5bbe611320b"
+    }
+  ]
+}
