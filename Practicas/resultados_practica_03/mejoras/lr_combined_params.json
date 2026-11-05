@@ -1,0 +1,89 @@
+[
+  {
+    "source": "refined",
+    "params": {
+      "features__kw_args": {
+        "mode": "rich"
+      },
+      "model__C": 0.017690030139652937,
+      "model__class_weight": "balanced",
+      "pre__cat__encode__min_frequency": null,
+      "pre__transformer_weights": {
+        "cat": 1.5,
+        "num": 1.0
+      }
+    }
+  },
+  {
+    "source": "refined",
+    "params": {
+      "features__kw_args": {
+        "mode": "rates"
+      },
+      "model__C": 0.2708117204750913,
+      "model__class_weight": "balanced",
+      "pre__cat__encode__min_frequency": null,
+      "pre__transformer_weights": {
+        "cat": 0.75,
+        "num": 1.0
+      }
+    }
+  },
+  {
+    "source": "refined",
+    "params": {
+      "features__kw_args": {
+        "mode": "rates"
+      },
+      "model__C": 0.06440893231035316,
+      "model__class_weight": {
+        "dropout": 1.0,
+        "enrolled": 1.75,
+        "graduate": 1.0
+      },
+      "pre__cat__encode__min_frequency": 5,
+      "pre__transformer_weights": {
+        "cat": 1.0,
+        "num": 1.0
+      }
+    }
+  },
+  {
+    "source": "refined",
+    "params": {
+      "features__kw_args": {
+        "mode": "rich"
+      },
+      "model__C": 0.02082544969827696,
+      "model__class_weight": {
+        "dropout": 1.5,
+        "enrolled": 2.5,
+        "graduate": 1.0
+      },
+      "pre__cat__encode__min_frequency": 5,
+      "pre__transformer_weights": {
+        "cat": 1.5,
+        "num": 1.0
+      }
+    }
+  },
+  {
+    "source": "refined",
+    "params": {
+      "features__kw_args": {
+        "mode": "rich"
+      },
+      "model__C": 0.02082544969827696,
+      "model__class_weight": {
+        "dropout": 1.5,
+        "enrolled": 2.5,
+        "graduate": 1.0
+      },
+      "pre__cat__encode__min_frequency": 5,
+      "pre__transformer_weights": {
+        "cat": 1.5,
+        "num": 1.0
+      }
+    }
+  }
+]

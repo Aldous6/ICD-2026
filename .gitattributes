@@ -1,2 +1,6 @@
 # Mantener los bytes originales del dataset para su comprobación SHA-256.
 Practicas/datos/default_credit_card_clients.csv -text
+Practicas/datos/desercion-entrenamiento.csv -text
+Practicas/datos/desercion-prueba.csv -text
+Practicas/predicciones_desercion.csv -text
+Practicas/resultados_practica_03/referencia_inicial/* -text

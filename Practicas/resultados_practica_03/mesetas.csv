@@ -1,0 +1,6 @@
+modelo,n_config,mejor_f1_seleccion,ganancia_maxima_cola_por_fase,meseta,fase_seleccionada,configuraciones_por_fase,segundos_busqueda_final
+Árbol,80,0.6507033859509972,0.0,True,original,"{""original"": 80}",12.778814399964176
+Naive Bayes,80,0.6242344513232589,0.0,True,original,"{""original"": 80}",9.423453600029461
+kNN,80,0.5639630022132438,0.0,True,original,"{""original"": 80}",29.735981000005268
+SVM,200,0.6918310108970722,0.0,True,refinada,"{""original"": 80, ""refinada"": 120}",677.7203928000527
+Regresión logística,200,0.6913682081094398,0.0,True,refinada,"{""original"": 80, ""refinada"": 120}",90.27692259999458

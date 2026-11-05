@@ -1,0 +1,22 @@
+{
+  "params": {
+    "features__kw_args": {
+      "mode": "rich"
+    },
+    "model__C": 0.02082544969827696,
+    "model__class_weight": {
+      "dropout": 1.5,
+      "enrolled": 2.5,
+      "graduate": 1.0
+    },
+    "pre__cat__encode__min_frequency": 5,
+    "pre__transformer_weights": {
+      "cat": 1.5,
+      "num": 1.0
+    }
+  },
+  "score": 0.6864555833203443,
+  "n_config": 80,
+  "plateau": true,
+  "seconds": 44.08966239995789
+}

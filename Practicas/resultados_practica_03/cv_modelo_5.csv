@@ -1,0 +1,6 @@
+modelo,pliegue,f1_macro,segundos_busqueda,n_config,meseta,fase_seleccionada,configuraciones_por_fase
+Regresión logística,1,0.6883184890917057,33.88281480001751,160,True,refinada,"{""original"": 80, ""refinada"": 80}"
+Regresión logística,2,0.6796460450118986,38.49156740005128,200,True,refinada,"{""original"": 80, ""refinada"": 120}"
+Regresión logística,3,0.6767668822856246,42.038088999921456,200,True,refinada,"{""original"": 80, ""refinada"": 120}"
+Regresión logística,4,0.6860571077477315,34.76694729994051,160,True,refinada,"{""original"": 80, ""refinada"": 80}"
+Regresión logística,5,0.6899867285998673,35.49791589996312,160,True,refinada,"{""original"": 80, ""refinada"": 80}"

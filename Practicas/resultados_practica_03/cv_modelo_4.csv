@@ -1,0 +1,6 @@
+modelo,pliegue,f1_macro,segundos_busqueda,n_config,meseta,fase_seleccionada,configuraciones_por_fase
+SVM,1,0.6892680851968822,158.2845339999767,160,True,refinada,"{""original"": 80, ""refinada"": 80}"
+SVM,2,0.6870225961605031,147.5399449999677,160,True,refinada,"{""original"": 80, ""refinada"": 80}"
+SVM,3,0.68151773529622,151.11999459995423,160,True,refinada,"{""original"": 80, ""refinada"": 80}"
+SVM,4,0.678098658282003,151.55888260004576,160,True,refinada,"{""original"": 80, ""refinada"": 80}"
+SVM,5,0.7054464575419473,157.4156175000826,160,True,refinada,"{""original"": 80, ""refinada"": 80}"

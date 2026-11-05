@@ -1,0 +1,6 @@
+modelo,pliegue,f1_macro,segundos_busqueda,n_config,meseta,fase_seleccionada,configuraciones_por_fase
+Naive Bayes,1,0.590641316355602,5.284950500004925,80,True,original,"{""original"": 80}"
+Naive Bayes,2,0.6222726222726223,5.645002500037663,80,True,original,"{""original"": 80}"
+Naive Bayes,3,0.6109549046074969,5.383343700086698,80,True,original,"{""original"": 80}"
+Naive Bayes,4,0.614281204464412,5.307941699982621,80,True,original,"{""original"": 80}"
+Naive Bayes,5,0.6140476512691385,5.381547500030138,80,True,original,"{""original"": 80}"

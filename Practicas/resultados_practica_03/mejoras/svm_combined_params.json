@@ -1,0 +1,102 @@
+[
+  {
+    "source": "refined",
+    "params": {
+      "features__kw_args": {
+        "mode": "rich"
+      },
+      "model__C": 5.2055890131362235,
+      "model__class_weight": {
+        "dropout": 1.2,
+        "enrolled": 2.0,
+        "graduate": 1.0
+      },
+      "model__gamma": 0.0023167896668675487,
+      "pre__cat__encode__min_frequency": null,
+      "pre__transformer_weights": {
+        "cat": 1.5,
+        "num": 1.0
+      }
+    }
+  },
+  {
+    "source": "refined",
+    "params": {
+      "features__kw_args": {
+        "mode": "rates"
+      },
+      "model__C": 46.23356684550429,
+      "model__class_weight": {
+        "dropout": 1.2,
+        "enrolled": 1.75,
+        "graduate": 1.0
+      },
+      "model__gamma": 0.001683630782929079,
+      "pre__cat__encode__min_frequency": null,
+      "pre__transformer_weights": {
+        "cat": 1.0,
+        "num": 1.0
+      }
+    }
+  },
+  {
+    "source": "refined",
+    "params": {
+      "features__kw_args": {
+        "mode": "rates"
+      },
+      "model__C": 46.23356684550429,
+      "model__class_weight": {
+        "dropout": 1.2,
+        "enrolled": 1.75,
+        "graduate": 1.0
+      },
+      "model__gamma": 0.001683630782929079,
+      "pre__cat__encode__min_frequency": null,
+      "pre__transformer_weights": {
+        "cat": 1.0,
+        "num": 1.0
+      }
+    }
+  },
+  {
+    "source": "refined",
+    "params": {
+      "features__kw_args": {
+        "mode": "rich"
+      },
+      "model__C": 12.59082755243927,
+      "model__class_weight": {
+        "dropout": 1.2,
+        "enrolled": 2.0,
+        "graduate": 1.0
+      },
+      "model__gamma": 0.003419867290052566,
+      "pre__cat__encode__min_frequency": null,
+      "pre__transformer_weights": {
+        "cat": 1.0,
+        "num": 1.0
+      }
+    }
+  },
+  {
+    "source": "refined",
+    "params": {
+      "features__kw_args": {
+        "mode": "rates"
+      },
+      "model__C": 46.23356684550429,
+      "model__class_weight": {
+        "dropout": 1.2,
+        "enrolled": 1.75,
+        "graduate": 1.0
+      },
+      "model__gamma": 0.001683630782929079,
+      "pre__cat__encode__min_frequency": null,
+      "pre__transformer_weights": {
+        "cat": 1.0,
+        "num": 1.0
+      }
+    }
+  }
+]

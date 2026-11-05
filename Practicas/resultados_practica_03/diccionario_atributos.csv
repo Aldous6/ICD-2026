@@ -1,0 +1,37 @@
+atributo,tipo_semántico,descripción,disponible_desde,dtype,valores_distintos_train,faltantes_train
+Marital status,Nominal,"Estado civil (1 soltero, 2 casado; otros estados codificados).",Ingreso,int64,6,0
+Application mode,Nominal,Vía de ingreso; los códigos identifican convocatorias o regímenes.,Ingreso,int64,17,0
+Application order,Ordinal,"Preferencia de ingreso; orden de opciones, no código nominal.",Ingreso,int64,8,0
+Course,Nominal,Carrera; el código no representa una magnitud.,Ingreso,int64,17,0
+Daytime/evening attendance,Nominal,"Horario: 1 diurno, 0 nocturno.",Ingreso,int64,2,0
+Previous qualification,Nominal,Tipo de estudios previos; códigos de vías educativas.,Ingreso,int64,17,0
+Previous qualification (grade),Continua,"Calificación previa, escala 0–200.",Ingreso,float64,100,0
+Nacionality,Nominal,"Nacionalidad; 1 portuguesa, otros códigos identifican países.",Ingreso,int64,18,0
+Mother's qualification,Nominal,"Titulación de la madre, incluyendo categorías desconocidas.",Ingreso,int64,26,0
+Father's qualification,Nominal,"Titulación del padre, incluyendo categorías desconocidas.",Ingreso,int64,32,0
+Mother's occupation,Nominal,Grupo ocupacional de la madre.,Ingreso,int64,31,0
+Father's occupation,Nominal,Grupo ocupacional del padre.,Ingreso,int64,45,0
+Admission grade,Continua,"Calificación de admisión, escala 0–200.",Ingreso,float64,589,0
+Displaced,Nominal,Desplazado: indicador 0/1.,Ingreso,int64,2,0
+Educational special needs,Nominal,Necesidades educativas especiales: indicador 0/1.,Ingreso,int64,2,0
+Debtor,Nominal,Deudor: indicador 0/1.,Ingreso,int64,2,0
+Tuition fees up to date,Nominal,Matrícula al corriente: indicador 0/1.,Ingreso,int64,2,0
+Gender,Nominal,"Género codificado: 1 masculino, 0 femenino, según UCI.",Ingreso,int64,2,0
+Scholarship holder,Nominal,Becario: indicador 0/1.,Ingreso,int64,2,0
+Age at enrollment,Discreta,Edad en años al ingreso.,Ingreso,int64,44,0
+International,Nominal,Estudiante internacional: indicador 0/1.,Ingreso,int64,2,0
+Curricular units 1st sem (credited),Discreta,Unidades curriculares reconocidas.,Primer semestre,int64,21,0
+Curricular units 1st sem (enrolled),Discreta,Unidades curriculares inscritas.,Primer semestre,int64,23,0
+Curricular units 1st sem (evaluations),Discreta,Número de evaluaciones.,Primer semestre,int64,33,0
+Curricular units 1st sem (approved),Discreta,Unidades curriculares aprobadas.,Primer semestre,int64,23,0
+Curricular units 1st sem (grade),Continua,"Promedio de calificaciones, escala 0–20.",Primer semestre,float64,699,0
+Curricular units 1st sem (without evaluations),Discreta,Unidades sin evaluación.,Primer semestre,int64,11,0
+Curricular units 2nd sem (credited),Discreta,Unidades curriculares reconocidas.,Segundo semestre,int64,19,0
+Curricular units 2nd sem (enrolled),Discreta,Unidades curriculares inscritas.,Segundo semestre,int64,21,0
+Curricular units 2nd sem (evaluations),Discreta,Número de evaluaciones.,Segundo semestre,int64,29,0
+Curricular units 2nd sem (approved),Discreta,Unidades curriculares aprobadas.,Segundo semestre,int64,20,0
+Curricular units 2nd sem (grade),Continua,"Promedio de calificaciones, escala 0–20.",Segundo semestre,float64,677,0
+Curricular units 2nd sem (without evaluations),Discreta,Unidades sin evaluación.,Segundo semestre,int64,10,0
+Unemployment rate,Continua,Tasa de desempleo del contexto económico.,Ingreso,float64,10,0
+Inflation rate,Continua,Tasa de inflación del contexto económico.,Ingreso,float64,9,0
+GDP,Continua,Indicador de PIB del contexto económico publicado por UCI.,Ingreso,float64,10,0

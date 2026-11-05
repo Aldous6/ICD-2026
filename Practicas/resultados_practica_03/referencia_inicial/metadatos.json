@@ -1,0 +1,480 @@
+{
+  "ejecucion_utc": "2026-11-04T23:22:46.366608+00:00",
+  "semilla": 42,
+  "versiones": {
+    "python": "3.12.10",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.10.8",
+    "joblib": "1.6.0",
+    "threadpoolctl": "3.7.0",
+    "nbformat": "5.10.4",
+    "nbclient": "0.10.2",
+    "ipykernel": "6.30.1"
+  },
+  "huellas_datos_sha256": {
+    "desercion-entrenamiento.csv": "7c477f6b0514318efcc793e69418b7d3e0db5e660eeb5a7d0370f3dfd6e941f8",
+    "desercion-prueba.csv": "c7ba06a34d00a7c8b19a00908760c75914344d18718b25ecb5db78d6904c48b1"
+  },
+  "filas_train": 3539,
+  "filas_test": 885,
+  "columnas_primer_semestre": [
+    "Marital status",
+    "Application mode",
+    "Application order",
+    "Course",
+    "Daytime/evening attendance",
+    "Previous qualification",
+    "Previous qualification (grade)",
+    "Nacionality",
+    "Mother's qualification",
+    "Father's qualification",
+    "Mother's occupation",
+    "Father's occupation",
+    "Admission grade",
+    "Displaced",
+    "Educational special needs",
+    "Debtor",
+    "Tuition fees up to date",
+    "Gender",
+    "Scholarship holder",
+    "Age at enrollment",
+    "International",
+    "Curricular units 1st sem (credited)",
+    "Curricular units 1st sem (enrolled)",
+    "Curricular units 1st sem (evaluations)",
+    "Curricular units 1st sem (approved)",
+    "Curricular units 1st sem (grade)",
+    "Curricular units 1st sem (without evaluations)",
+    "Unemployment rate",
+    "Inflation rate",
+    "GDP"
+  ],
+  "columnas_adicionales_segundo": [
+    "Curricular units 2nd sem (credited)",
+    "Curricular units 2nd sem (enrolled)",
+    "Curricular units 2nd sem (evaluations)",
+    "Curricular units 2nd sem (approved)",
+    "Curricular units 2nd sem (grade)",
+    "Curricular units 2nd sem (without evaluations)"
+  ],
+  "pliegues_externos": 5,
+  "pliegues_internos": 3,
+  "procesos_paralelos": 8,
+  "min_config": 80,
+  "max_config": 160,
+  "criterio_meseta": {
+    "ventana": 20,
+    "ganancia_maxima": 0.001
+  },
+  "modelo_final": "SVM",
+  "parametros_finales": {
+    "modelo": "SVC(C=np.float64(12.59082755243927), cache_size=256,\n    class_weight={'dropout': 1.2, 'enrolled': 2.0, 'graduate': 1.0},\n    gamma=np.float64(0.003419867290052566), random_state=42)",
+    "modelo__C": 12.59082755243927,
+    "modelo__class_weight": {
+      "dropout": 1.2,
+      "enrolled": 2.0,
+      "graduate": 1.0
+    },
+    "modelo__gamma": 0.003419867290052566,
+    "pre": "ColumnTransformer(sparse_threshold=0,\n                  transformers=[('cat',\n                                 Pipeline(steps=[('imputar',\n                                                  SimpleImputer(keep_empty_features=True,\n                                                                strategy='most_frequent')),\n                                                 ('codificar',\n                                                  OneHotEncoder(handle_unknown='ignore',\n                                                                sparse_output=False))]),\n                                 <function categorias_presentes at 0x000001F14AE1F9C0>),\n                                ('num',\n                                 Pipeline(steps=[('imputar',\n                                                  SimpleImputer(keep_empty_features=True,\n                                                                strategy='median')),\n                                                 ('escalar',\n                                                  StandardScaler())]),\n                                 <function numeros_presentes at 0x000001F16C7BE0C0>)])",
+    "pre__num__escalar": "StandardScaler()"
+  },
+  "configuraciones_evaluadas": {
+    "Árbol": {
+      "busqueda_final": 80,
+      "cada_busqueda_interna": [
+        80,
+        80,
+        80,
+        80,
+        80
+      ]
+    },
+    "Naive Bayes": {
+      "busqueda_final": 80,
+      "cada_busqueda_interna": [
+        80,
+        80,
+        80,
+        80,
+        80
+      ]
+    },
+    "kNN": {
+      "busqueda_final": 80,
+      "cada_busqueda_interna": [
+        80,
+        80,
+        80,
+        80,
+        80
+      ]
+    },
+    "SVM": {
+      "busqueda_final": 80,
+      "cada_busqueda_interna": [
+        80,
+        80,
+        80,
+        80,
+        80
+      ]
+    },
+    "Regresión logística": {
+      "busqueda_final": 80,
+      "cada_busqueda_interna": [
+        80,
+        80,
+        80,
+        80,
+        80
+      ]
+    }
+  },
+  "segundo_semestre": {
+    "diferencia_f1_media": 0.03728010754441382,
+    "diferencia_f1_std": 0.017580805836976104,
+    "diferencia_sensibilidad_dropout_media": 0.04395239199319885,
+    "configuraciones_internas": [
+      80,
+      80,
+      80,
+      80,
+      80
+    ],
+    "segundos_total": 423.089834399987,
+    "parametros_externos": [
+      {
+        "modelo": "SVC(C=np.float64(10.226554282974982), cache_size=256, class_weight='balanced',\n    gamma=np.float64(0.007615049019611129), random_state=42)",
+        "modelo__C": 10.226554282974982,
+        "modelo__class_weight": "balanced",
+        "modelo__gamma": 0.007615049019611129,
+        "pre": "ColumnTransformer(sparse_threshold=0,\n                  transformers=[('cat',\n                                 Pipeline(steps=[('imputar',\n                                                  SimpleImputer(keep_empty_features=True,\n                                                                strategy='most_frequent')),\n                                                 ('codificar',\n                                                  OneHotEncoder(handle_unknown='ignore',\n                                                                sparse_output=False))]),\n                                 <function categorias_presentes at 0x000001F14AE1F9C0>),\n                                ('num',\n                                 Pipeline(steps=[('imputar',\n                                                  SimpleImputer(keep_empty_features=True,\n                                                                strategy='median')),\n                                                 ('escalar',\n                                                  StandardScaler())]),\n                                 <function numeros_presentes at 0x000001F16C7BE0C0>)])",
+        "pre__num__escalar": "StandardScaler()"
+      },
+      {
+        "modelo": "SVC(C=np.float64(12.59082755243927), cache_size=256,\n    class_weight={'dropout': 1.2, 'enrolled': 2.0, 'graduate': 1.0},\n    gamma=np.float64(0.003419867290052566), random_state=42)",
+        "modelo__C": 12.59082755243927,
+        "modelo__class_weight": {
+          "dropout": 1.2,
+          "enrolled": 2.0,
+          "graduate": 1.0
+        },
+        "modelo__gamma": 0.003419867290052566,
+        "pre": "ColumnTransformer(sparse_threshold=0,\n                  transformers=[('cat',\n                                 Pipeline(steps=[('imputar',\n                                                  SimpleImputer(keep_empty_features=True,\n                                                                strategy='most_frequent')),\n                                                 ('codificar',\n                                                  OneHotEncoder(handle_unknown='ignore',\n                                                                sparse_output=False))]),\n                                 <function categorias_presentes at 0x000001F14AE1F9C0>),\n                                ('num',\n                                 Pipeline(steps=[('imputar',\n                                                  SimpleImputer(keep_empty_features=True,\n                                                                strategy='median')),\n                                                 ('escalar',\n                                                  StandardScaler())]),\n                                 <function numeros_presentes at 0x000001F16C7BE0C0>)])",
+        "pre__num__escalar": "StandardScaler()"
+      },
+      {
+        "modelo": "SVC(C=np.float64(12.59082755243927), cache_size=256,\n    class_weight={'dropout': 1.2, 'enrolled': 2.0, 'graduate': 1.0},\n    gamma=np.float64(0.003419867290052566), random_state=42)",
+        "modelo__C": 12.59082755243927,
+        "modelo__class_weight": {
+          "dropout": 1.2,
+          "enrolled": 2.0,
+          "graduate": 1.0
+        },
+        "modelo__gamma": 0.003419867290052566,
+        "pre": "ColumnTransformer(sparse_threshold=0,\n                  transformers=[('cat',\n                                 Pipeline(steps=[('imputar',\n                                                  SimpleImputer(keep_empty_features=True,\n                                                                strategy='most_frequent')),\n                                                 ('codificar',\n                                                  OneHotEncoder(handle_unknown='ignore',\n                                                                sparse_output=False))]),\n                                 <function categorias_presentes at 0x000001F14AE1F9C0>),\n                                ('num',\n                                 Pipeline(steps=[('imputar',\n                                                  SimpleImputer(keep_empty_features=True,\n                                                                strategy='median')),\n                                                 ('escalar',\n                                                  StandardScaler())]),\n                                 <function numeros_presentes at 0x000001F16C7BE0C0>)])",
+        "pre__num__escalar": "StandardScaler()"
+      },
+      {
+        "modelo": "SVC(C=np.float64(0.36581158086326804), cache_size=256,\n    class_weight={'dropout': 1.0, 'enrolled': 1.5, 'graduate': 1.0},\n    kernel='linear', random_state=42)",
+        "modelo__C": 0.36581158086326804,
+        "modelo__class_weight": {
+          "dropout": 1.0,
+          "enrolled": 1.5,
+          "graduate": 1.0
+        },
+        "pre": "ColumnTransformer(sparse_threshold=0,\n                  transformers=[('cat',\n                                 Pipeline(steps=[('imputar',\n                                                  SimpleImputer(keep_empty_features=True,\n                                                                strategy='most_frequent')),\n                                                 ('codificar',\n                                                  OneHotEncoder(handle_unknown='ignore',\n                                                                sparse_output=False))]),\n                                 <function categorias_presentes at 0x000001F14AE1F9C0>),\n                                ('num',\n                                 Pipeline(steps=[('imputar',\n                                                  SimpleImputer(keep_empty_features=True,\n                                                                strategy='median')),\n                                                 ('escalar',\n                                                  StandardScaler())]),\n                                 <function numeros_presentes at 0x000001F16C7BE0C0>)])",
+        "pre__num__escalar": "StandardScaler()"
+      },
+      {
+        "modelo": "SVC(C=np.float64(12.59082755243927), cache_size=256,\n    class_weight={'dropout': 1.2, 'enrolled': 2.0, 'graduate': 1.0},\n    gamma=np.float64(0.003419867290052566), random_state=42)",
+        "modelo__C": 12.59082755243927,
+        "modelo__class_weight": {
+          "dropout": 1.2,
+          "enrolled": 2.0,
+          "graduate": 1.0
+        },
+        "modelo__gamma": 0.003419867290052566,
+        "pre": "ColumnTransformer(sparse_threshold=0,\n                  transformers=[('cat',\n                                 Pipeline(steps=[('imputar',\n                                                  SimpleImputer(keep_empty_features=True,\n                                                                strategy='most_frequent')),\n                                                 ('codificar',\n                                                  OneHotEncoder(handle_unknown='ignore',\n                                                                sparse_output=False))]),\n                                 <function categorias_presentes at 0x000001F14AE1F9C0>),\n                                ('num',\n                                 Pipeline(steps=[('imputar',\n                                                  SimpleImputer(keep_empty_features=True,\n                                                                strategy='median')),\n                                                 ('escalar',\n                                                  StandardScaler())]),\n                                 <function numeros_presentes at 0x000001F16C7BE0C0>)])",
+        "pre__num__escalar": "StandardScaler()"
+      }
+    ]
+  },
+  "parametros_externos_primer_semestre": {
+    "Árbol": [
+      {
+        "modelo": "DecisionTreeClassifier(ccp_alpha=0.01,\n                       class_weight={'dropout': 1.2, 'enrolled': 2.0,\n                                     'graduate': 1.0},\n                       criterion='log_loss', max_depth=10, min_samples_split=20,\n                       random_state=42)",
+        "modelo__ccp_alpha": 0.01,
+        "modelo__class_weight": {
+          "dropout": 1.2,
+          "enrolled": 2.0,
+          "graduate": 1.0
+        },
+        "modelo__criterion": "log_loss",
+        "modelo__max_depth": 10,
+        "modelo__min_samples_leaf": 1,
+        "modelo__min_samples_split": 20,
+        "pre": "ColumnTransformer(sparse_threshold=0,\n                  transformers=[('cat',\n                                 Pipeline(steps=[('imputar',\n                                                  SimpleImputer(keep_empty_features=True,\n                                                                strategy='most_frequent')),\n                                                 ('codificar',\n                                                  OneHotEncoder(handle_unknown='ignore',\n                                                                sparse_output=False))]),\n                                 <function categorias_presentes at 0x000001F14AE1F9C0>),\n                                ('num',\n                                 Pipeline(steps=[('imputar',\n                                                  SimpleImputer(keep_empty_features=True,\n                                                                strategy='median'))]),\n                                 <function numeros_presentes at 0x000001F16C7BE0C0>)])"
+      },
+      {
+        "modelo": "DecisionTreeClassifier(ccp_alpha=0.005,\n                       class_weight={'dropout': 1.0, 'enrolled': 1.5,\n                                     'graduate': 1.0},\n                       criterion='log_loss', max_depth=10, min_samples_leaf=20,\n                       min_samples_split=5, random_state=42)",
+        "modelo__ccp_alpha": 0.005,
+        "modelo__class_weight": {
+          "dropout": 1.0,
+          "enrolled": 1.5,
+          "graduate": 1.0
+        },
+        "modelo__criterion": "log_loss",
+        "modelo__max_depth": 10,
+        "modelo__min_samples_leaf": 20,
+        "modelo__min_samples_split": 5,
+        "pre": "ColumnTransformer(sparse_threshold=0,\n                  transformers=[('cat',\n                                 Pipeline(steps=[('imputar',\n                                                  SimpleImputer(keep_empty_features=True,\n                                                                strategy='most_frequent')),\n                                                 ('codificar',\n                                                  OneHotEncoder(handle_unknown='ignore',\n                                                                sparse_output=False))]),\n                                 <function categorias_presentes at 0x000001F14AE1F9C0>),\n                                ('num',\n                                 Pipeline(steps=[('imputar',\n                                                  SimpleImputer(keep_empty_features=True,\n                                                                strategy='median'))]),\n                                 <function numeros_presentes at 0x000001F16C7BE0C0>)])"
+      },
+      {
+        "modelo": "DecisionTreeClassifier(ccp_alpha=0.0003,\n                       class_weight={'dropout': 1.2, 'enrolled': 2.0,\n                                     'graduate': 1.0},\n                       criterion='log_loss', max_depth=4, min_samples_leaf=35,\n                       random_state=42)",
+        "modelo__ccp_alpha": 0.0003,
+        "modelo__class_weight": {
+          "dropout": 1.2,
+          "enrolled": 2.0,
+          "graduate": 1.0
+        },
+        "modelo__criterion": "log_loss",
+        "modelo__max_depth": 4,
+        "modelo__min_samples_leaf": 35,
+        "modelo__min_samples_split": 2,
+        "pre": "ColumnTransformer(sparse_threshold=0,\n                  transformers=[('cat',\n                                 Pipeline(steps=[('imputar',\n                                                  SimpleImputer(keep_empty_features=True,\n                                                                strategy='most_frequent')),\n                                                 ('codificar',\n                                                  OneHotEncoder(handle_unknown='ignore',\n                                                                sparse_output=False))]),\n                                 <function categorias_presentes at 0x000001F14AE1F9C0>),\n                                ('num',\n                                 Pipeline(steps=[('imputar',\n                                                  SimpleImputer(keep_empty_features=True,\n                                                                strategy='median'))]),\n                                 <function numeros_presentes at 0x000001F16C7BE0C0>)])"
+      },
+      {
+        "modelo": "DecisionTreeClassifier(class_weight={'dropout': 1.0, 'enrolled': 1.5,\n                                     'graduate': 1.0},\n                       criterion='log_loss', min_samples_leaf=20,\n                       min_samples_split=5, random_state=42)",
+        "modelo__ccp_alpha": 0.0,
+        "modelo__class_weight": {
+          "dropout": 1.0,
+          "enrolled": 1.5,
+          "graduate": 1.0
+        },
+        "modelo__criterion": "log_loss",
+        "modelo__max_depth": null,
+        "modelo__min_samples_leaf": 20,
+        "modelo__min_samples_split": 5,
+        "pre": "ColumnTransformer(sparse_threshold=0,\n                  transformers=[('cat',\n                                 Pipeline(steps=[('imputar',\n                                                  SimpleImputer(keep_empty_features=True,\n                                                                strategy='most_frequent')),\n                                                 ('codificar',\n                                                  OneHotEncoder(handle_unknown='ignore',\n                                                                sparse_output=False))]),\n                                 <function categorias_presentes at 0x000001F14AE1F9C0>),\n                                ('num',\n                                 Pipeline(steps=[('imputar',\n                                                  SimpleImputer(keep_empty_features=True,\n                                                                strategy='median'))]),\n                                 <function numeros_presentes at 0x000001F16C7BE0C0>)])"
+      },
+      {
+        "modelo": "DecisionTreeClassifier(ccp_alpha=0.001,\n                       class_weight={'dropout': 1.0, 'enrolled': 1.5,\n                                     'graduate': 1.0},\n                       max_depth=6, min_samples_leaf=12, random_state=42)",
+        "modelo__ccp_alpha": 0.001,
+        "modelo__class_weight": {
+          "dropout": 1.0,
+          "enrolled": 1.5,
+          "graduate": 1.0
+        },
+        "modelo__criterion": "gini",
+        "modelo__max_depth": 6,
+        "modelo__min_samples_leaf": 12,
+        "modelo__min_samples_split": 2,
+        "pre": "ColumnTransformer(sparse_threshold=0,\n                  transformers=[('cat',\n                                 Pipeline(steps=[('imputar',\n                                                  SimpleImputer(keep_empty_features=True,\n                                                                strategy='most_frequent')),\n                                                 ('codificar',\n                                                  OneHotEncoder(handle_unknown='ignore',\n                                                                sparse_output=False))]),\n                                 <function categorias_presentes at 0x000001F14AE1F9C0>),\n                                ('num',\n                                 Pipeline(steps=[('imputar',\n                                                  SimpleImputer(keep_empty_features=True,\n                                                                strategy='median'))]),\n                                 <function numeros_presentes at 0x000001F16C7BE0C0>)])"
+      }
+    ],
+    "Naive Bayes": [
+      {
+        "modelo": "CategoricalNB(alpha=np.float64(0.0030469943185258558), fit_prior=False)",
+        "modelo__alpha": 0.0030469943185258558,
+        "modelo__fit_prior": false,
+        "pre": "Pipeline(steps=[('columnas',\n                 ColumnTransformer(sparse_threshold=0,\n                                   transformers=[('cat',\n                                                  Pipeline(steps=[('imputar',\n                                                                   SimpleImputer(keep_empty_features=True,\n                                                                                 strategy='most_frequent')),\n                                                                  ('codificar',\n                                                                   OrdinalEncoder(dtype=<class 'numpy.int64'>,\n                                                                                  handle_unknown='use_encoded_value',\n                                                                                  unknown_value=-1))]),\n                                                  <function categorias_presentes at 0x000001F14AE1F9C0>),\n                                                 ('num',\n                                                  Pipeline(steps=[('imputar',\n                                                                   SimpleImputer(keep_empty_features=True,\n                                                                                 strategy='median')),\n                                                                  ('discretizar',\n                                                                   KBinsDiscretizer(encode='ordinal',\n                                                                                    n_bins=15,\n                                                                                    random_state=42,\n                                                                                    strategy='uniform',\n                                                                                    subsample=None))]),\n                                                  <function numeros_presentes at 0x000001F16C7BE0C0>)])),\n                ('reservar_desconocido',\n                 FunctionTransformer(func=<function sumar_uno at 0x000001F16C7BE020>))])",
+        "pre__columnas__num__discretizar__n_bins": 15,
+        "pre__columnas__num__discretizar__strategy": "uniform"
+      },
+      {
+        "modelo": "CategoricalNB(alpha=np.float64(0.43206495184757565), fit_prior=False)",
+        "modelo__alpha": 0.43206495184757565,
+        "modelo__fit_prior": false,
+        "pre": "Pipeline(steps=[('columnas',\n                 ColumnTransformer(sparse_threshold=0,\n                                   transformers=[('cat',\n                                                  Pipeline(steps=[('imputar',\n                                                                   SimpleImputer(keep_empty_features=True,\n                                                                                 strategy='most_frequent')),\n                                                                  ('codificar',\n                                                                   OrdinalEncoder(dtype=<class 'numpy.int64'>,\n                                                                                  handle_unknown='use_encoded_value',\n                                                                                  unknown_value=-1))]),\n                                                  <function categorias_presentes at 0x000001F14AE1F9C0>),\n                                                 ('num',\n                                                  Pipeline(steps=[('imputar',\n                                                                   SimpleImputer(keep_empty_features=True,\n                                                                                 strategy='median')),\n                                                                  ('discretizar',\n                                                                   KBinsDiscretizer(encode='ordinal',\n                                                                                    n_bins=15,\n                                                                                    random_state=42,\n                                                                                    strategy='uniform',\n                                                                                    subsample=None))]),\n                                                  <function numeros_presentes at 0x000001F16C7BE0C0>)])),\n                ('reservar_desconocido',\n                 FunctionTransformer(func=<function sumar_uno at 0x000001F16C7BE020>))])",
+        "pre__columnas__num__discretizar__n_bins": 15,
+        "pre__columnas__num__discretizar__strategy": "uniform"
+      },
+      {
+        "modelo": "CategoricalNB(alpha=np.float64(0.3794552445068672), fit_prior=False)",
+        "modelo__alpha": 0.3794552445068672,
+        "modelo__fit_prior": false,
+        "pre": "Pipeline(steps=[('columnas',\n                 ColumnTransformer(sparse_threshold=0,\n                                   transformers=[('cat',\n                                                  Pipeline(steps=[('imputar',\n                                                                   SimpleImputer(keep_empty_features=True,\n                                                                                 strategy='most_frequent')),\n                                                                  ('codificar',\n                                                                   OrdinalEncoder(dtype=<class 'numpy.int64'>,\n                                                                                  handle_unknown='use_encoded_value',\n                                                                                  unknown_value=-1))]),\n                                                  <function categorias_presentes at 0x000001F14AE1F9C0>),\n                                                 ('num',\n                                                  Pipeline(steps=[('imputar',\n                                                                   SimpleImputer(keep_empty_features=True,\n                                                                                 strategy='median')),\n                                                                  ('discretizar',\n                                                                   KBinsDiscretizer(encode='ordinal',\n                                                                                    random_state=42,\n                                                                                    strategy='uniform',\n                                                                                    subsample=None))]),\n                                                  <function numeros_presentes at 0x000001F16C7BE0C0>)])),\n                ('reservar_desconocido',\n                 FunctionTransformer(func=<function sumar_uno at 0x000001F16C7BE020>))])",
+        "pre__columnas__num__discretizar__n_bins": 5,
+        "pre__columnas__num__discretizar__strategy": "uniform"
+      },
+      {
+        "modelo": "CategoricalNB(alpha=np.float64(0.16113515279999233))",
+        "modelo__alpha": 0.16113515279999233,
+        "modelo__fit_prior": true,
+        "pre": "Pipeline(steps=[('columnas',\n                 ColumnTransformer(sparse_threshold=0,\n                                   transformers=[('cat',\n                                                  Pipeline(steps=[('imputar',\n                                                                   SimpleImputer(keep_empty_features=True,\n                                                                                 strategy='most_frequent')),\n                                                                  ('codificar',\n                                                                   OrdinalEncoder(dtype=<class 'numpy.int64'>,\n                                                                                  handle_unknown='use_encoded_value',\n                                                                                  unknown_value=-1))]),\n                                                  <function categorias_presentes at 0x000001F14AE1F9C0>),\n                                                 ('num',\n                                                  Pipeline(steps=[('imputar',\n                                                                   SimpleImputer(keep_empty_features=True,\n                                                                                 strategy='median')),\n                                                                  ('discretizar',\n                                                                   KBinsDiscretizer(encode='ordinal',\n                                                                                    n_bins=15,\n                                                                                    random_state=42,\n                                                                                    subsample=None))]),\n                                                  <function numeros_presentes at 0x000001F16C7BE0C0>)])),\n                ('reservar_desconocido',\n                 FunctionTransformer(func=<function sumar_uno at 0x000001F16C7BE020>))])",
+        "pre__columnas__num__discretizar__n_bins": 15,
+        "pre__columnas__num__discretizar__strategy": "quantile"
+      },
+      {
+        "modelo": "CategoricalNB(alpha=np.float64(0.492865786886322), fit_prior=False)",
+        "modelo__alpha": 0.492865786886322,
+        "modelo__fit_prior": false,
+        "pre": "Pipeline(steps=[('columnas',\n                 ColumnTransformer(sparse_threshold=0,\n                                   transformers=[('cat',\n                                                  Pipeline(steps=[('imputar',\n                                                                   SimpleImputer(keep_empty_features=True,\n                                                                                 strategy='most_frequent')),\n                                                                  ('codificar',\n                                                                   OrdinalEncoder(dtype=<class 'numpy.int64'>,\n                                                                                  handle_unknown='use_encoded_value',\n                                                                                  unknown_value=-1))]),\n                                                  <function categorias_presentes at 0x000001F14AE1F9C0>),\n                                                 ('num',\n                                                  Pipeline(steps=[('imputar',\n                                                                   SimpleImputer(keep_empty_features=True,\n                                                                                 strategy='median')),\n                                                                  ('discretizar',\n                                                                   KBinsDiscretizer(encode='ordinal',\n                                                                                    n_bins=7,\n                                                                                    random_state=42,\n                                                                                    strategy='uniform',\n                                                                                    subsample=None))]),\n                                                  <function numeros_presentes at 0x000001F16C7BE0C0>)])),\n                ('reservar_desconocido',\n                 FunctionTransformer(func=<function sumar_uno at 0x000001F16C7BE020>))])",
+        "pre__columnas__num__discretizar__n_bins": 7,
+        "pre__columnas__num__discretizar__strategy": "uniform"
+      }
+    ],
+    "kNN": [
+      {
+        "modelo": "KNeighborsClassifier(algorithm='brute', n_jobs=1, n_neighbors=6, p=1,\n                     weights='distance')",
+        "modelo__metric": "minkowski",
+        "modelo__n_neighbors": 6,
+        "modelo__p": 1,
+        "modelo__weights": "distance",
+        "pre": "ColumnTransformer(sparse_threshold=0,\n                  transformers=[('cat',\n                                 Pipeline(steps=[('imputar',\n                                                  SimpleImputer(keep_empty_features=True,\n                                                                strategy='most_frequent')),\n                                                 ('codificar',\n                                                  OneHotEncoder(handle_unknown='ignore',\n                                                                sparse_output=False))]),\n                                 <function categorias_presentes at 0x000001F14AE1F9C0>),\n                                ('num',\n                                 Pipeline(steps=[('imputar',\n                                                  SimpleImputer(keep_empty_features=True,\n                                                                strategy='median')),\n                                                 ('escalar',\n                                                  StandardScaler())]),\n                                 <function numeros_presentes at 0x000001F16C7BE0C0>)])",
+        "pre__num__escalar": "StandardScaler()"
+      },
+      {
+        "modelo": "KNeighborsClassifier(algorithm='brute', n_jobs=1, n_neighbors=6, p=1,\n                     weights='distance')",
+        "modelo__metric": "minkowski",
+        "modelo__n_neighbors": 6,
+        "modelo__p": 1,
+        "modelo__weights": "distance",
+        "pre": "ColumnTransformer(sparse_threshold=0,\n                  transformers=[('cat',\n                                 Pipeline(steps=[('imputar',\n                                                  SimpleImputer(keep_empty_features=True,\n                                                                strategy='most_frequent')),\n                                                 ('codificar',\n                                                  OneHotEncoder(handle_unknown='ignore',\n                                                                sparse_output=False))]),\n                                 <function categorias_presentes at 0x000001F14AE1F9C0>),\n                                ('num',\n                                 Pipeline(steps=[('imputar',\n                                                  SimpleImputer(keep_empty_features=True,\n                                                                strategy='median')),\n                                                 ('escalar',\n                                                  StandardScaler())]),\n                                 <function numeros_presentes at 0x000001F16C7BE0C0>)])",
+        "pre__num__escalar": "StandardScaler()"
+      },
+      {
+        "modelo": "KNeighborsClassifier(algorithm='brute', n_jobs=1, n_neighbors=6, p=1,\n                     weights='distance')",
+        "modelo__metric": "minkowski",
+        "modelo__n_neighbors": 6,
+        "modelo__p": 1,
+        "modelo__weights": "distance",
+        "pre": "ColumnTransformer(sparse_threshold=0,\n                  transformers=[('cat',\n                                 Pipeline(steps=[('imputar',\n                                                  SimpleImputer(keep_empty_features=True,\n                                                                strategy='most_frequent')),\n                                                 ('codificar',\n                                                  OneHotEncoder(handle_unknown='ignore',\n                                                                sparse_output=False))]),\n                                 <function categorias_presentes at 0x000001F14AE1F9C0>),\n                                ('num',\n                                 Pipeline(steps=[('imputar',\n                                                  SimpleImputer(keep_empty_features=True,\n                                                                strategy='median')),\n                                                 ('escalar',\n                                                  StandardScaler())]),\n                                 <function numeros_presentes at 0x000001F16C7BE0C0>)])",
+        "pre__num__escalar": "StandardScaler()"
+      },
+      {
+        "modelo": "KNeighborsClassifier(algorithm='brute', n_jobs=1, n_neighbors=6, p=1,\n                     weights='distance')",
+        "modelo__metric": "minkowski",
+        "modelo__n_neighbors": 6,
+        "modelo__p": 1,
+        "modelo__weights": "distance",
+        "pre": "ColumnTransformer(sparse_threshold=0,\n                  transformers=[('cat',\n                                 Pipeline(steps=[('imputar',\n                                                  SimpleImputer(keep_empty_features=True,\n                                                                strategy='most_frequent')),\n                                                 ('codificar',\n                                                  OneHotEncoder(handle_unknown='ignore',\n                                                                sparse_output=False))]),\n                                 <function categorias_presentes at 0x000001F14AE1F9C0>),\n                                ('num',\n                                 Pipeline(steps=[('imputar',\n                                                  SimpleImputer(keep_empty_features=True,\n                                                                strategy='median')),\n                                                 ('escalar',\n                                                  StandardScaler())]),\n                                 <function numeros_presentes at 0x000001F16C7BE0C0>)])",
+        "pre__num__escalar": "StandardScaler()"
+      },
+      {
+        "modelo": "KNeighborsClassifier(algorithm='brute', n_jobs=1, n_neighbors=6, p=1,\n                     weights='distance')",
+        "modelo__metric": "minkowski",
+        "modelo__n_neighbors": 6,
+        "modelo__p": 1,
+        "modelo__weights": "distance",
+        "pre": "ColumnTransformer(sparse_threshold=0,\n                  transformers=[('cat',\n                                 Pipeline(steps=[('imputar',\n                                                  SimpleImputer(keep_empty_features=True,\n                                                                strategy='most_frequent')),\n                                                 ('codificar',\n                                                  OneHotEncoder(handle_unknown='ignore',\n                                                                sparse_output=False))]),\n                                 <function categorias_presentes at 0x000001F14AE1F9C0>),\n                                ('num',\n                                 Pipeline(steps=[('imputar',\n                                                  SimpleImputer(keep_empty_features=True,\n                                                                strategy='median')),\n                                                 ('escalar',\n                                                  StandardScaler())]),\n                                 <function numeros_presentes at 0x000001F16C7BE0C0>)])",
+        "pre__num__escalar": "StandardScaler()"
+      }
+    ],
+    "SVM": [
+      {
+        "modelo": "SVC(C=np.float64(12.59082755243927), cache_size=256,\n    class_weight={'dropout': 1.2, 'enrolled': 2.0, 'graduate': 1.0},\n    gamma=np.float64(0.003419867290052566), random_state=42)",
+        "modelo__C": 12.59082755243927,
+        "modelo__class_weight": {
+          "dropout": 1.2,
+          "enrolled": 2.0,
+          "graduate": 1.0
+        },
+        "modelo__gamma": 0.003419867290052566,
+        "pre": "ColumnTransformer(sparse_threshold=0,\n                  transformers=[('cat',\n                                 Pipeline(steps=[('imputar',\n                                                  SimpleImputer(keep_empty_features=True,\n                                                                strategy='most_frequent')),\n                                                 ('codificar',\n                                                  OneHotEncoder(handle_unknown='ignore',\n                                                                sparse_output=False))]),\n                                 <function categorias_presentes at 0x000001F14AE1F9C0>),\n                                ('num',\n                                 Pipeline(steps=[('imputar',\n                                                  SimpleImputer(keep_empty_features=True,\n                                                                strategy='median')),\n                                                 ('escalar',\n                                                  StandardScaler())]),\n                                 <function numeros_presentes at 0x000001F16C7BE0C0>)])",
+        "pre__num__escalar": "StandardScaler()"
+      },
+      {
+        "modelo": "SVC(C=np.float64(10.226554282974982), cache_size=256, class_weight='balanced',\n    gamma=np.float64(0.007615049019611129), random_state=42)",
+        "modelo__C": 10.226554282974982,
+        "modelo__class_weight": "balanced",
+        "modelo__gamma": 0.007615049019611129,
+        "pre": "ColumnTransformer(sparse_threshold=0,\n                  transformers=[('cat',\n                                 Pipeline(steps=[('imputar',\n                                                  SimpleImputer(keep_empty_features=True,\n                                                                strategy='most_frequent')),\n                                                 ('codificar',\n                                                  OneHotEncoder(handle_unknown='ignore',\n                                                                sparse_output=False))]),\n                                 <function categorias_presentes at 0x000001F14AE1F9C0>),\n                                ('num',\n                                 Pipeline(steps=[('imputar',\n                                                  SimpleImputer(keep_empty_features=True,\n                                                                strategy='median')),\n                                                 ('escalar',\n                                                  StandardScaler())]),\n                                 <function numeros_presentes at 0x000001F16C7BE0C0>)])",
+        "pre__num__escalar": "StandardScaler()"
+      },
+      {
+        "modelo": "SVC(C=np.float64(12.59082755243927), cache_size=256,\n    class_weight={'dropout': 1.2, 'enrolled': 2.0, 'graduate': 1.0},\n    gamma=np.float64(0.003419867290052566), random_state=42)",
+        "modelo__C": 12.59082755243927,
+        "modelo__class_weight": {
+          "dropout": 1.2,
+          "enrolled": 2.0,
+          "graduate": 1.0
+        },
+        "modelo__gamma": 0.003419867290052566,
+        "pre": "ColumnTransformer(sparse_threshold=0,\n                  transformers=[('cat',\n                                 Pipeline(steps=[('imputar',\n                                                  SimpleImputer(keep_empty_features=True,\n                                                                strategy='most_frequent')),\n                                                 ('codificar',\n                                                  OneHotEncoder(handle_unknown='ignore',\n                                                                sparse_output=False))]),\n                                 <function categorias_presentes at 0x000001F14AE1F9C0>),\n                                ('num',\n                                 Pipeline(steps=[('imputar',\n                                                  SimpleImputer(keep_empty_features=True,\n                                                                strategy='median')),\n                                                 ('escalar',\n                                                  StandardScaler())]),\n                                 <function numeros_presentes at 0x000001F16C7BE0C0>)])",
+        "pre__num__escalar": "StandardScaler()"
+      },
+      {
+        "modelo": "SVC(C=np.float64(0.1809180703252646), cache_size=256,\n    class_weight={'dropout': 1.2, 'enrolled': 2.0, 'graduate': 1.0},\n    kernel='linear', random_state=42)",
+        "modelo__C": 0.1809180703252646,
+        "modelo__class_weight": {
+          "dropout": 1.2,
+          "enrolled": 2.0,
+          "graduate": 1.0
+        },
+        "pre": "ColumnTransformer(sparse_threshold=0,\n                  transformers=[('cat',\n                                 Pipeline(steps=[('imputar',\n                                                  SimpleImputer(keep_empty_features=True,\n                                                                strategy='most_frequent')),\n                                                 ('codificar',\n                                                  OneHotEncoder(handle_unknown='ignore',\n                                                                sparse_output=False))]),\n                                 <function categorias_presentes at 0x000001F14AE1F9C0>),\n                                ('num',\n                                 Pipeline(steps=[('imputar',\n                                                  SimpleImputer(keep_empty_features=True,\n                                                                strategy='median')),\n                                                 ('escalar',\n                                                  StandardScaler())]),\n                                 <function numeros_presentes at 0x000001F16C7BE0C0>)])",
+        "pre__num__escalar": "StandardScaler()"
+      },
+      {
+        "modelo": "SVC(C=np.float64(0.6881003497190437), cache_size=256,\n    class_weight={'dropout': 1.2, 'enrolled': 2.0, 'graduate': 1.0},\n    kernel='linear', random_state=42)",
+        "modelo__C": 0.6881003497190437,
+        "modelo__class_weight": {
+          "dropout": 1.2,
+          "enrolled": 2.0,
+          "graduate": 1.0
+        },
+        "pre": "ColumnTransformer(sparse_threshold=0,\n                  transformers=[('cat',\n                                 Pipeline(steps=[('imputar',\n                                                  SimpleImputer(keep_empty_features=True,\n                                                                strategy='most_frequent')),\n                                                 ('codificar',\n                                                  OneHotEncoder(handle_unknown='ignore',\n                                                                sparse_output=False))]),\n                                 <function categorias_presentes at 0x000001F14AE1F9C0>),\n                                ('num',\n                                 Pipeline(steps=[('imputar',\n                                                  SimpleImputer(keep_empty_features=True,\n                                                                strategy='median')),\n                                                 ('escalar',\n                                                  StandardScaler())]),\n                                 <function numeros_presentes at 0x000001F16C7BE0C0>)])",
+        "pre__num__escalar": "StandardScaler()"
+      }
+    ],
+    "Regresión logística": [
+      {
+        "modelo": "LogisticRegression(C=np.float64(0.23235382254409676),\n                   class_weight={'dropout': 1.2, 'enrolled': 2.0,\n                                 'graduate': 1.0},\n                   max_iter=10000, random_state=42)",
+        "modelo__C": 0.23235382254409676,
+        "modelo__class_weight": {
+          "dropout": 1.2,
+          "enrolled": 2.0,
+          "graduate": 1.0
+        },
+        "pre": "ColumnTransformer(sparse_threshold=1.0,\n                  transformers=[('cat',\n                                 Pipeline(steps=[('imputar',\n                                                  SimpleImputer(keep_empty_features=True,\n                                                                strategy='most_frequent')),\n                                                 ('codificar',\n                                                  OneHotEncoder(handle_unknown='ignore'))]),\n                                 <function categorias_presentes at 0x000001F14AE1F9C0>),\n                                ('num',\n                                 Pipeline(steps=[('imputar',\n                                                  SimpleImputer(keep_empty_features=True,\n                                                                strategy='median')),\n                                                 ('escalar',\n                                                  StandardScaler())]),\n                                 <function numeros_presentes at 0x000001F16C7BE0C0>)])",
+        "pre__num__escalar": "StandardScaler()"
+      },
+      {
+        "modelo": "LogisticRegression(C=np.float64(0.8398706146755152),\n                   class_weight={'dropout': 1.0, 'enrolled': 1.5,\n                                 'graduate': 1.0},\n                   l1_ratio=1.0, max_iter=10000, random_state=42, solver='saga',\n                   tol=0.001)",
+        "modelo__C": 0.8398706146755152,
+        "modelo__class_weight": {
+          "dropout": 1.0,
+          "enrolled": 1.5,
+          "graduate": 1.0
+        },
+        "pre": "ColumnTransformer(sparse_threshold=1.0,\n                  transformers=[('cat',\n                                 Pipeline(steps=[('imputar',\n                                                  SimpleImputer(keep_empty_features=True,\n                                                                strategy='most_frequent')),\n                                                 ('codificar',\n                                                  OneHotEncoder(handle_unknown='ignore'))]),\n                                 <function categorias_presentes at 0x000001F14AE1F9C0>),\n                                ('num',\n                                 Pipeline(steps=[('imputar',\n                                                  SimpleImputer(keep_empty_features=True,\n                                                                strategy='median')),\n                                                 ('escalar',\n                                                  MinMaxScaler(clip=True))]),\n                                 <function numeros_presentes at 0x000001F16C7BE0C0>)])",
+        "pre__num__escalar": "MinMaxScaler(clip=True)"
+      },
+      {
+        "modelo": "LogisticRegression(C=np.float64(0.8398706146755152),\n                   class_weight={'dropout': 1.0, 'enrolled': 1.5,\n                                 'graduate': 1.0},\n                   l1_ratio=1.0, max_iter=10000, random_state=42, solver='saga',\n                   tol=0.001)",
+        "modelo__C": 0.8398706146755152,
+        "modelo__class_weight": {
+          "dropout": 1.0,
+          "enrolled": 1.5,
+          "graduate": 1.0
+        },
+        "pre": "ColumnTransformer(sparse_threshold=1.0,\n                  transformers=[('cat',\n                                 Pipeline(steps=[('imputar',\n                                                  SimpleImputer(keep_empty_features=True,\n                                                                strategy='most_frequent')),\n                                                 ('codificar',\n                                                  OneHotEncoder(handle_unknown='ignore'))]),\n                                 <function categorias_presentes at 0x000001F14AE1F9C0>),\n                                ('num',\n                                 Pipeline(steps=[('imputar',\n                                                  SimpleImputer(keep_empty_features=True,\n                                                                strategy='median')),\n                                                 ('escalar',\n                                                  MinMaxScaler(clip=True))]),\n                                 <function numeros_presentes at 0x000001F16C7BE0C0>)])",
+        "pre__num__escalar": "MinMaxScaler(clip=True)"
+      },
+      {
+        "modelo": "LogisticRegression(C=np.float64(0.8398706146755152),\n                   class_weight={'dropout': 1.0, 'enrolled': 1.5,\n                                 'graduate': 1.0},\n                   l1_ratio=1.0, max_iter=10000, random_state=42, solver='saga',\n                   tol=0.001)",
+        "modelo__C": 0.8398706146755152,
+        "modelo__class_weight": {
+          "dropout": 1.0,
+          "enrolled": 1.5,
+          "graduate": 1.0
+        },
+        "pre": "ColumnTransformer(sparse_threshold=1.0,\n                  transformers=[('cat',\n                                 Pipeline(steps=[('imputar',\n                                                  SimpleImputer(keep_empty_features=True,\n                                                                strategy='most_frequent')),\n                                                 ('codificar',\n                                                  OneHotEncoder(handle_unknown='ignore'))]),\n                                 <function categorias_presentes at 0x000001F14AE1F9C0>),\n                                ('num',\n                                 Pipeline(steps=[('imputar',\n                                                  SimpleImputer(keep_empty_features=True,\n                                                                strategy='median')),\n                                                 ('escalar',\n                                                  MinMaxScaler(clip=True))]),\n                                 <function numeros_presentes at 0x000001F16C7BE0C0>)])",
+        "pre__num__escalar": "MinMaxScaler(clip=True)"
+      },
+      {
+        "modelo": "LogisticRegression(C=np.float64(0.9179962782597593), class_weight='balanced',\n                   max_iter=10000, random_state=42)",
+        "modelo__C": 0.9179962782597593,
+        "modelo__class_weight": "balanced",
+        "pre": "ColumnTransformer(sparse_threshold=1.0,\n                  transformers=[('cat',\n                                 Pipeline(steps=[('imputar',\n                                                  SimpleImputer(keep_empty_features=True,\n                                                                strategy='most_frequent')),\n                                                 ('codificar',\n                                                  OneHotEncoder(handle_unknown='ignore'))]),\n                                 <function categorias_presentes at 0x000001F14AE1F9C0>),\n                                ('num',\n                                 Pipeline(steps=[('imputar',\n                                                  SimpleImputer(keep_empty_features=True,\n                                                                strategy='median')),\n                                                 ('escalar',\n                                                  StandardScaler())]),\n                                 <function numeros_presentes at 0x000001F16C7BE0C0>)])",
+        "pre__num__escalar": "StandardScaler()"
+      }
+    ]
+  },
+  "predicciones_sha256": "22487ffd177e0a3b8f57b7eb1b4f2e9b60e49903de4dab631c14b31f0d0bdd3e"
+}

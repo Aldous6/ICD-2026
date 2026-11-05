@@ -1,0 +1,97 @@
+{
+  "Árbol": {
+    "fase_seleccionada": "original",
+    "fases": [
+      {
+        "fase": "original",
+        "n_config": 80,
+        "minimo": 80,
+        "maximo": 160,
+        "meseta": true,
+        "ganancia_cola": 0.0,
+        "mejor_f1_seleccion": 0.6507033859509972,
+        "segundos": 12.777065700036474
+      }
+    ]
+  },
+  "Naive Bayes": {
+    "fase_seleccionada": "original",
+    "fases": [
+      {
+        "fase": "original",
+        "n_config": 80,
+        "minimo": 80,
+        "maximo": 160,
+        "meseta": true,
+        "ganancia_cola": 0.0,
+        "mejor_f1_seleccion": 0.6242344513232589,
+        "segundos": 9.421285399934277
+      }
+    ]
+  },
+  "kNN": {
+    "fase_seleccionada": "original",
+    "fases": [
+      {
+        "fase": "original",
+        "n_config": 80,
+        "minimo": 80,
+        "maximo": 160,
+        "meseta": true,
+        "ganancia_cola": 0.0,
+        "mejor_f1_seleccion": 0.5639630022132438,
+        "segundos": 29.733746199985035
+      }
+    ]
+  },
+  "SVM": {
+    "fase_seleccionada": "refinada",
+    "fases": [
+      {
+        "fase": "original",
+        "n_config": 80,
+        "minimo": 80,
+        "maximo": 160,
+        "meseta": true,
+        "ganancia_cola": 0.0,
+        "mejor_f1_seleccion": 0.6894583399661033,
+        "segundos": 369.6942961999448
+      },
+      {
+        "fase": "refinada",
+        "n_config": 120,
+        "minimo": 120,
+        "maximo": 160,
+        "meseta": true,
+        "ganancia_cola": 0.0,
+        "mejor_f1_seleccion": 0.6918310108970722,
+        "segundos": 308.0209353000391
+      }
+    ]
+  },
+  "Regresión logística": {
+    "fase_seleccionada": "refinada",
+    "fases": [
+      {
+        "fase": "original",
+        "n_config": 80,
+        "minimo": 80,
+        "maximo": 160,
+        "meseta": true,
+        "ganancia_cola": 0.0,
+        "mejor_f1_seleccion": 0.6819236458609214,
+        "segundos": 48.615864200051874
+      },
+      {
+        "fase": "refinada",
+        "n_config": 120,
+        "minimo": 120,
+        "maximo": 160,
+        "meseta": true,
+        "ganancia_cola": 0.0,
+        "mejor_f1_seleccion": 0.6913682081094398,
+        "segundos": 41.656632099999115
+      }
+    ]
+  }
+}

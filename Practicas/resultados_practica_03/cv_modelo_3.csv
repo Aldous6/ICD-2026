@@ -1,0 +1,6 @@
+modelo,pliegue,f1_macro,segundos_busqueda,n_config,meseta,fase_seleccionada,configuraciones_por_fase
+kNN,1,0.5553848167398666,15.846195799997076,80,True,original,"{""original"": 80}"
+kNN,2,0.5710797430503672,15.180974700022489,80,True,original,"{""original"": 80}"
+kNN,3,0.579598451646541,15.909795899991877,80,True,original,"{""original"": 80}"
+kNN,4,0.5512249543797773,15.627187000005506,80,True,original,"{""original"": 80}"
+kNN,5,0.5562732233435782,15.77219759998843,80,True,original,"{""original"": 80}"

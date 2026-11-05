@@ -1,0 +1,10 @@
+{
+  "comparacion_modelos.csv": "e3e9acad1b5693e9cb638d057ee0e391f63cec0eda65cecae3bc236a940e4e3d",
+  "mejores_parametros.json": "bc992698abba19dba1c9af99ec52812f0033c6ad5d23d439f8a8a6375a164b86",
+  "mesetas.csv": "41e4a5eaffc88cd4617a5da6be857d70e72e9387cb6b6747273a108ffe5184e0",
+  "metadatos.json": "c624f1efee6a73a56121c3d57316aa177cd79dddace327fc8c5b4ce07f623a95",
+  "metricas_pliegues.csv": "3dd17f2c79edc094930e1188b08cd6a0e5425b9519d553f0e0a3f24d3016147e",
+  "predicciones_iniciales.csv": "22487ffd177e0a3b8f57b7eb1b4f2e9b60e49903de4dab631c14b31f0d0bdd3e",
+  "predicciones_oof.csv": "330bc43e294812bbb195db21d3e6137b00fb351402768092bf16a87307366a54",
+  "sensibilidad_especificidad.csv": "81e28cd5b647f1650fecac53cfdac003b4d0867cba0341dd5ea0a5b53f0f619f"
+}

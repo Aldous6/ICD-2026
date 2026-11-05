@@ -1,6 +1,6 @@
 # Prácticas
 
-La carpeta contiene la [práctica 01 de análisis exploratorio](practica_01_eda.ipynb) y la [práctica 02 de preprocesamiento de riesgo crediticio](practica_02_preprocesamiento_riesgo_crediticio.ipynb). Ambos notebooks incluyen comentarios, gráficas y resultados de ejecución.
+La carpeta contiene la [práctica 01 de análisis exploratorio](practica_01_eda.ipynb), la [práctica 02 de preprocesamiento de riesgo crediticio](practica_02_preprocesamiento_riesgo_crediticio.ipynb) y la [práctica 03 de clasificación de deserción](practica_03_clasificacion_desercion.ipynb). Los tres notebooks incluyen comentarios, gráficas y resultados de ejecución; la tercera práctica también incluye su CSV de predicciones refinado.
 
 ## Práctica 01: análisis exploratorio de inspecciones sanitarias
 
@@ -55,3 +55,7 @@ jupyter lab Practicas/practica_02_preprocesamiento_riesgo_crediticio.ipynb
 La carga local encuentra el CSV desde la raíz del repositorio o desde `Practicas/` y no necesita conexión a internet. El notebook incluye las salidas y las gráficas guardadas, por lo que también puede revisarse sin ejecutarlo.
 
 Para la entrega, comparte el enlace del repositorio y sube `Practicas/practica_02_preprocesamiento_riesgo_crediticio.ipynb` a la plataforma del curso. Si entregas también el CSV, conserva la atribución de su fuente.
+
+## Práctica 03: clasificación de deserción estudiantil
+
+Consulta el [README exclusivo de la práctica 03](README_practica_03.md), con la descripción del dataset, los requisitos, las instrucciones de ejecución, los resultados y los archivos de entrega.

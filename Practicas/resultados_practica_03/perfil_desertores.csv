@@ -1,0 +1,4 @@
+predicción_oof,n,Curricular units 1st sem (approved),Curricular units 1st sem (enrolled),Curricular units 1st sem (grade),Tuition fees up to date,Debtor
+dropout,773,1.62,5.715,5.564,0.527,0.294
+enrolled,211,3.616,5.934,11.178,0.981,0.081
+graduate,153,5.824,6.294,11.074,0.98,0.072

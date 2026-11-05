@@ -1,0 +1,6 @@
+modelo,pliegue,f1_macro,segundos_busqueda,n_config,meseta,fase_seleccionada,configuraciones_por_fase
+Árbol,1,0.6384833487884679,15.128449600073509,80,True,original,"{""original"": 80}"
+Árbol,2,0.6331394581670109,5.7258755000075325,80,True,original,"{""original"": 80}"
+Árbol,3,0.6194466151363288,5.608315400080755,80,True,original,"{""original"": 80}"
+Árbol,4,0.6538085255066387,5.854258200037293,80,True,original,"{""original"": 80}"
+Árbol,5,0.6443699671511869,5.786508699995466,80,True,original,"{""original"": 80}"
