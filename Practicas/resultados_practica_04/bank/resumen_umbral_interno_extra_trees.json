@@ -1,0 +1,10 @@
+{
+  "modelo": "Umbral interno: Extra-Trees",
+  "f1_media": 0.717000902481288,
+  "f1_desv": 0.007049396193053249,
+  "sensibilidad_media": 0.5400862068965517,
+  "sensibilidad_desv": 0.021121789204313162,
+  "entrenamiento_media_s": 157.61291403770446,
+  "entrenamiento_total_s": 788.0645701885223,
+  "busqueda_s": 0.0
+}

@@ -1,0 +1,10 @@
+{
+  "modelo": "Dummy",
+  "f1_media": 0.470155397637975,
+  "f1_desv": 2.102884443527286e-06,
+  "sensibilidad_media": 0.0,
+  "sensibilidad_desv": 0.0,
+  "entrenamiento_media_s": 0.642798662185669,
+  "entrenamiento_total_s": 3.2139933109283447,
+  "busqueda_s": 0.0
+}

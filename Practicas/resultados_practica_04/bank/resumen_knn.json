@@ -1,0 +1,10 @@
+{
+  "modelo": "kNN",
+  "f1_media": 0.6520053819453336,
+  "f1_desv": 0.008308999312419709,
+  "sensibilidad_media": 0.2668103448275862,
+  "sensibilidad_desv": 0.015039953726179223,
+  "entrenamiento_media_s": 0.6545557498931884,
+  "entrenamiento_total_s": 3.2727787494659424,
+  "busqueda_s": 0.0
+}

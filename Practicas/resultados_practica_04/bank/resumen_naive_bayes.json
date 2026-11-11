@@ -1,0 +1,10 @@
+{
+  "modelo": "Naive Bayes",
+  "f1_media": 0.6699279739921968,
+  "f1_desv": 0.00662272509400312,
+  "sensibilidad_media": 0.46357758620689654,
+  "sensibilidad_desv": 0.012713690692890184,
+  "entrenamiento_media_s": 0.7146231651306152,
+  "entrenamiento_total_s": 3.573115825653076,
+  "busqueda_s": 0.0
+}

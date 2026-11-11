@@ -1,0 +1,27 @@
+{
+  "parametros": {
+    "pre__cat__codificar": {
+      "clase": "sklearn.preprocessing._encoders.OrdinalEncoder",
+      "parametros": {
+        "categories": "auto",
+        "dtype": "numpy.float64",
+        "encoded_missing_value": "NaN",
+        "handle_unknown": "use_encoded_value",
+        "max_categories": null,
+        "min_frequency": null,
+        "unknown_value": -1
+      }
+    },
+    "modelo__n_estimators": 100,
+    "modelo__min_samples_leaf": 4,
+    "modelo__max_features": "sqrt",
+    "modelo__max_depth": null,
+    "modelo__criterion": "gini",
+    "modelo__class_weight": "balanced_subsample"
+  },
+  "configuraciones_distintas": 50,
+  "mejor_f1_seleccion": 0.7152920347298106,
+  "busqueda_s": 635.5736907,
+  "ganancia_ultimas_20": 0.0,
+  "meseta_local_001": true
+}

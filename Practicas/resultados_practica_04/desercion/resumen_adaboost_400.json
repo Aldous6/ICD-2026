@@ -1,0 +1,10 @@
+{
+  "modelo": "AdaBoost 400",
+  "f1_media": 0.6387897743645257,
+  "f1_desv": 0.01460070978116633,
+  "sensibilidad_media": 0.25511811023622044,
+  "sensibilidad_desv": 0.044052285765982246,
+  "entrenamiento_media_s": 27.843799209594728,
+  "entrenamiento_total_s": 139.21899604797363,
+  "busqueda_s": 0.0
+}

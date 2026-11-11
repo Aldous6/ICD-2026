@@ -1,0 +1,10 @@
+{
+  "modelo": "Regresión logística",
+  "f1_media": 0.6913682081094398,
+  "f1_desv": 0.007893908487799467,
+  "sensibilidad_media": 0.5086614173228347,
+  "sensibilidad_desv": 0.0461151195727443,
+  "entrenamiento_media_s": 1.1529860973358155,
+  "entrenamiento_total_s": 5.764930486679077,
+  "busqueda_s": 0.0
+}

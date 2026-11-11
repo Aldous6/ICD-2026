@@ -1,0 +1,10 @@
+{
+  "modelo": "Umbral interno: Logística optimizada",
+  "f1_media": 0.7070171197923385,
+  "f1_desv": 0.006652313193841223,
+  "sensibilidad_media": 0.5327586206896552,
+  "sensibilidad_desv": 0.025001393391609155,
+  "entrenamiento_media_s": 18.634891986846924,
+  "entrenamiento_total_s": 93.17445993423462,
+  "busqueda_s": 0.0
+}

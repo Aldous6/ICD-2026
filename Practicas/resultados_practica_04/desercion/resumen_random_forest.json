@@ -1,0 +1,10 @@
+{
+  "modelo": "Random Forest",
+  "f1_media": 0.6959887018151456,
+  "f1_desv": 0.016718310639034662,
+  "sensibilidad_media": 0.5543307086614173,
+  "sensibilidad_desv": 0.042256402724405485,
+  "entrenamiento_media_s": 3.320461130142212,
+  "entrenamiento_total_s": 16.60230565071106,
+  "busqueda_s": 226.38849659999983
+}

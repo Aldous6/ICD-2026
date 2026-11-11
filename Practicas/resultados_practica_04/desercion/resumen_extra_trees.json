@@ -1,0 +1,10 @@
+{
+  "modelo": "Extra-Trees",
+  "f1_media": 0.6906554421898776,
+  "f1_desv": 0.011007129376762443,
+  "sensibilidad_media": 0.5496062992125984,
+  "sensibilidad_desv": 0.03833279195161604,
+  "entrenamiento_media_s": 5.722442626953125,
+  "entrenamiento_total_s": 28.612213134765625,
+  "busqueda_s": 229.08489129999998
+}

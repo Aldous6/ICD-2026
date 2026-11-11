@@ -1,0 +1,10 @@
+{
+  "modelo": "Stacking logístico",
+  "f1_media": 0.6717488655104268,
+  "f1_desv": 0.016487594729946216,
+  "sensibilidad_media": 0.3464566929133858,
+  "sensibilidad_desv": 0.03293937112338879,
+  "entrenamiento_media_s": 12.713985967636109,
+  "entrenamiento_total_s": 63.56992983818054,
+  "busqueda_s": 0.0
+}

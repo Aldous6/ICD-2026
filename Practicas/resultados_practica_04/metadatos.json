@@ -1,0 +1,40 @@
+{
+  "ejecucion_utc": "2026-11-08T00:37:53.910228+00:00",
+  "versiones": {
+    "python": "3.12.10",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.10.8",
+    "joblib": "1.6.0",
+    "threadpoolctl": "3.7.0",
+    "lightgbm": "4.7.0",
+    "catboost": "1.2.10",
+    "nbformat": "5.10.4",
+    "nbclient": "0.10.2",
+    "ipykernel": "6.30.1",
+    "jupyterlab": "4.4.9"
+  },
+  "semilla_desercion_original": 42,
+  "semilla_busqueda_y_bank": 2026,
+  "n_configuraciones_por_familia": 50,
+  "n_jobs": 8,
+  "huellas_datos_sha256": {
+    "desercion-entrenamiento.csv": "7c477f6b0514318efcc793e69418b7d3e0db5e660eeb5a7d0370f3dfd6e941f8",
+    "desercion-prueba.csv": "c7ba06a34d00a7c8b19a00908760c75914344d18718b25ecb5db78d6904c48b1",
+    "bank-additional-full.csv": "74adfc578bf77a7ff4bb1ba4a9f8709d9e3c6907342959c2c8416847e0afb4d8"
+  },
+  "ganador_desercion": "LightGBM",
+  "ganador_bank": "Umbral interno: Transferido: LightGBM",
+  "modelo_entrega": "Aldo_Santiago_Marquez-umbral_interno_transferido_lightgbm.joblib",
+  "modelo_sha256": "b4e0af4246a69aa80f967596292565102191b447b4130fee18ec7169e994fc14",
+  "f1_bank": 0.7180095714545334,
+  "f1_desercion": 0.6967603747404846,
+  "fit_final_s": 4.499199199999566,
+  "umbral_final": 0.6126179555297282,
+  "desviacion": "muestral ddof=1",
+  "cache_habilitada": true,
+  "alcance": "seleccion con los mismos pliegues; no validacion anidada",
+  "segundos_esta_ejecucion_notebook": 572.9383133000001
+}

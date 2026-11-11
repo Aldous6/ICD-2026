@@ -1,0 +1,311 @@
+{
+  "Random Forest": {
+    "modelo__n_estimators": [
+      100,
+      200,
+      400
+    ],
+    "modelo__max_features": [
+      "sqrt",
+      "log2",
+      0.5,
+      0.8,
+      1.0
+    ],
+    "modelo__max_depth": [
+      null,
+      5,
+      8,
+      12,
+      20
+    ],
+    "modelo__min_samples_leaf": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "modelo__criterion": [
+      "gini",
+      "entropy",
+      "log_loss"
+    ],
+    "modelo__class_weight": [
+      null,
+      "balanced",
+      "balanced_subsample"
+    ],
+    "pre__cat__codificar": [
+      {
+        "clase": "sklearn.preprocessing._encoders.OneHotEncoder",
+        "parametros": {
+          "categories": "auto",
+          "drop": null,
+          "dtype": "numpy.float64",
+          "feature_name_combiner": "concat",
+          "handle_unknown": "ignore",
+          "max_categories": null,
+          "min_frequency": null,
+          "sparse_output": false
+        }
+      },
+      {
+        "clase": "sklearn.preprocessing._encoders.OrdinalEncoder",
+        "parametros": {
+          "categories": "auto",
+          "dtype": "numpy.float64",
+          "encoded_missing_value": "NaN",
+          "handle_unknown": "use_encoded_value",
+          "max_categories": null,
+          "min_frequency": null,
+          "unknown_value": -1
+        }
+      }
+    ]
+  },
+  "Extra-Trees": {
+    "modelo__n_estimators": [
+      100,
+      200,
+      400
+    ],
+    "modelo__max_features": [
+      "sqrt",
+      "log2",
+      0.5,
+      0.8,
+      1.0
+    ],
+    "modelo__max_depth": [
+      null,
+      5,
+      8,
+      12,
+      20
+    ],
+    "modelo__min_samples_leaf": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "modelo__criterion": [
+      "gini",
+      "entropy",
+      "log_loss"
+    ],
+    "modelo__class_weight": [
+      null,
+      "balanced",
+      "balanced_subsample"
+    ],
+    "modelo__bootstrap": [
+      false,
+      true
+    ],
+    "pre__cat__codificar": [
+      {
+        "clase": "sklearn.preprocessing._encoders.OneHotEncoder",
+        "parametros": {
+          "categories": "auto",
+          "drop": null,
+          "dtype": "numpy.float64",
+          "feature_name_combiner": "concat",
+          "handle_unknown": "ignore",
+          "max_categories": null,
+          "min_frequency": null,
+          "sparse_output": false
+        }
+      },
+      {
+        "clase": "sklearn.preprocessing._encoders.OrdinalEncoder",
+        "parametros": {
+          "categories": "auto",
+          "dtype": "numpy.float64",
+          "encoded_missing_value": "NaN",
+          "handle_unknown": "use_encoded_value",
+          "max_categories": null,
+          "min_frequency": null,
+          "unknown_value": -1
+        }
+      }
+    ]
+  },
+  "LightGBM": {
+    "modelo__n_estimators": [
+      100,
+      200,
+      400
+    ],
+    "modelo__learning_rate": [
+      0.02,
+      0.04,
+      0.07,
+      0.1
+    ],
+    "modelo__num_leaves": [
+      7,
+      15,
+      31,
+      63
+    ],
+    "modelo__max_depth": [
+      -1,
+      4,
+      6,
+      8
+    ],
+    "modelo__reg_lambda": [
+      0.0,
+      0.5,
+      2.0,
+      5.0,
+      10.0
+    ],
+    "modelo__min_child_samples": [
+      10,
+      20,
+      40,
+      80
+    ],
+    "modelo__subsample": [
+      0.6,
+      0.8,
+      1.0
+    ],
+    "modelo__colsample_bytree": [
+      0.6,
+      0.8,
+      1.0
+    ],
+    "modelo__class_weight": [
+      null,
+      "balanced"
+    ],
+    "pre__cat__codificar": [
+      {
+        "clase": "sklearn.preprocessing._encoders.OneHotEncoder",
+        "parametros": {
+          "categories": "auto",
+          "drop": null,
+          "dtype": "numpy.float64",
+          "feature_name_combiner": "concat",
+          "handle_unknown": "ignore",
+          "max_categories": null,
+          "min_frequency": null,
+          "sparse_output": false
+        }
+      },
+      {
+        "clase": "sklearn.preprocessing._encoders.OrdinalEncoder",
+        "parametros": {
+          "categories": "auto",
+          "dtype": "numpy.float64",
+          "encoded_missing_value": "NaN",
+          "handle_unknown": "use_encoded_value",
+          "max_categories": null,
+          "min_frequency": null,
+          "unknown_value": -1
+        }
+      }
+    ]
+  },
+  "CatBoost": {
+    "modelo__iterations": [
+      100,
+      200,
+      400
+    ],
+    "modelo__learning_rate": [
+      0.02,
+      0.04,
+      0.07,
+      0.1
+    ],
+    "modelo__depth": [
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "modelo__l2_leaf_reg": [
+      1.0,
+      3.0,
+      5.0,
+      10.0,
+      20.0
+    ],
+    "modelo__subsample": [
+      0.6,
+      0.8,
+      1.0
+    ],
+    "modelo__rsm": [
+      0.6,
+      0.8,
+      1.0
+    ],
+    "modelo__auto_class_weights": [
+      "None",
+      "Balanced",
+      "SqrtBalanced"
+    ],
+    "pre__cat__codificar": [
+      {
+        "clase": "sklearn.preprocessing._encoders.OneHotEncoder",
+        "parametros": {
+          "categories": "auto",
+          "drop": null,
+          "dtype": "numpy.float64",
+          "feature_name_combiner": "concat",
+          "handle_unknown": "ignore",
+          "max_categories": null,
+          "min_frequency": null,
+          "sparse_output": false
+        }
+      },
+      {
+        "clase": "sklearn.preprocessing._encoders.OrdinalEncoder",
+        "parametros": {
+          "categories": "auto",
+          "dtype": "numpy.float64",
+          "encoded_missing_value": "NaN",
+          "handle_unknown": "use_encoded_value",
+          "max_categories": null,
+          "min_frequency": null,
+          "unknown_value": -1
+        }
+      }
+    ]
+  },
+  "Logística optimizada": {
+    "modelo__C": [
+      0.001,
+      0.01,
+      0.1,
+      1.0,
+      10.0,
+      100.0
+    ],
+    "modelo__class_weight": [
+      null,
+      "balanced",
+      {
+        "0": 1.0,
+        "1": 2.0
+      },
+      {
+        "0": 1.0,
+        "1": 4.0
+      }
+    ],
+    "pre__cat__codificar__min_frequency": [
+      null,
+      0.001,
+      0.005
+    ]
+  }
+}

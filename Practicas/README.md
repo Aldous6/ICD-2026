@@ -1,6 +1,6 @@
 # Prácticas
 
-La carpeta contiene la [práctica 01 de análisis exploratorio](practica_01_eda.ipynb), la [práctica 02 de preprocesamiento de riesgo crediticio](practica_02_preprocesamiento_riesgo_crediticio.ipynb) y la [práctica 03 de clasificación de deserción](practica_03_clasificacion_desercion.ipynb). Los tres notebooks incluyen comentarios, gráficas y resultados de ejecución; la tercera práctica también incluye su CSV de predicciones refinado.
+La carpeta contiene la [práctica 01 de análisis exploratorio](practica_01_eda.ipynb), la [práctica 02 de preprocesamiento de riesgo crediticio](practica_02_preprocesamiento_riesgo_crediticio.ipynb), la [práctica 03 de clasificación de deserción](practica_03_clasificacion_desercion.ipynb) y la [práctica 04 de meta aprendizaje](practica_04_metaaprendizaje.ipynb). Los notebooks incluyen comentarios, gráficas y resultados de ejecución; la tercera práctica también incluye su CSV de predicciones refinado y la cuarta genera el modelo ganador de Bank Marketing.
 
 ## Práctica 01: análisis exploratorio de inspecciones sanitarias
 
@@ -59,3 +59,7 @@ Para la entrega, comparte el enlace del repositorio y sube `Practicas/practica_0
 ## Práctica 03: clasificación de deserción estudiantil
 
 Consulta el [README exclusivo de la práctica 03](README_practica_03.md), con la descripción del dataset, los requisitos, las instrucciones de ejecución, los resultados y los archivos de entrega.
+
+## Práctica 04: meta aprendizaje
+
+El [notebook de meta aprendizaje](practica_04_metaaprendizaje.ipynb) compara bagging, boosting, votaciones, stacking, Random Forest, Extra-Trees, LightGBM y CatBoost. Recupera las cinco configuraciones finales y los pliegues de la Práctica 3; después compara alternativas en Bank Marketing sin `duration`. Consulta el [README de la práctica 04](README_practica_04.md) para instalar las dependencias, reproducir los resultados y cargar el modelo de entrega.

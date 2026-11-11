@@ -1,0 +1,10 @@
+{
+  "modelo": "Umbral interno: Random Forest",
+  "f1_media": 0.7172025779240231,
+  "f1_desv": 0.007089670211195576,
+  "sensibilidad_media": 0.5375,
+  "sensibilidad_desv": 0.019085752299666688,
+  "entrenamiento_media_s": 35.5140896320343,
+  "entrenamiento_total_s": 177.5704481601715,
+  "busqueda_s": 0.0
+}

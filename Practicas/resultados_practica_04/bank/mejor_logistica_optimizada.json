@@ -1,0 +1,15 @@
+{
+  "parametros": {
+    "pre__cat__codificar__min_frequency": null,
+    "modelo__class_weight": {
+      "0": 1.0,
+      "1": 4.0
+    },
+    "modelo__C": 100.0
+  },
+  "configuraciones_distintas": 50,
+  "mejor_f1_seleccion": 0.7063441774389329,
+  "busqueda_s": 245.4076912999999,
+  "ganancia_ultimas_20": 0.0,
+  "meseta_local_001": true
+}

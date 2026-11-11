@@ -1,0 +1,10 @@
+{
+  "modelo": "Árbol",
+  "f1_media": 0.6507033859509972,
+  "f1_desv": 0.00795690407955611,
+  "sensibilidad_media": 0.4425196850393701,
+  "sensibilidad_desv": 0.06620731656559971,
+  "entrenamiento_media_s": 0.7020854949951172,
+  "entrenamiento_total_s": 3.510427474975586,
+  "busqueda_s": 0.0
+}

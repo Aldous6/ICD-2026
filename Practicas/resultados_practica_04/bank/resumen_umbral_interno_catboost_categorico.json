@@ -1,0 +1,10 @@
+{
+  "modelo": "Umbral interno: CatBoost categórico",
+  "f1_media": 0.7156265919631636,
+  "f1_desv": 0.005738780071597307,
+  "sensibilidad_media": 0.5435344827586207,
+  "sensibilidad_desv": 0.018153410121758126,
+  "entrenamiento_media_s": 162.70206418037415,
+  "entrenamiento_total_s": 813.5103209018707,
+  "busqueda_s": 0.0
+}

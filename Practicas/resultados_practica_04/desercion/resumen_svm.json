@@ -1,0 +1,10 @@
+{
+  "modelo": "SVM",
+  "f1_media": 0.6918310108970722,
+  "f1_desv": 0.005939708049188039,
+  "sensibilidad_media": 0.5606299212598425,
+  "sensibilidad_desv": 0.03018943230343434,
+  "entrenamiento_media_s": 3.1105981349945067,
+  "entrenamiento_total_s": 15.552990674972534,
+  "busqueda_s": 0.0
+}

@@ -1,0 +1,31 @@
+{
+  "parametros": {
+    "modelo__n_estimators": 400,
+    "modelo__min_samples_leaf": 4,
+    "modelo__max_features": "sqrt",
+    "modelo__max_depth": 20,
+    "modelo__criterion": "entropy",
+    "modelo__class_weight": "balanced_subsample",
+    "modelo__bootstrap": false,
+    "features": {
+      "clase": "sklearn.preprocessing._function_transformer.FunctionTransformer",
+      "parametros": {
+        "accept_sparse": false,
+        "check_inverse": true,
+        "feature_names_out": null,
+        "func": "metaaprendizaje.bases.academic_features",
+        "inv_kw_args": null,
+        "inverse_func": null,
+        "kw_args": {
+          "mode": "rich"
+        },
+        "validate": false
+      }
+    }
+  },
+  "configuraciones_distintas": 50,
+  "mejor_f1_seleccion": 0.6906554421898776,
+  "busqueda_s": 229.08489129999998,
+  "ganancia_ultimas_20": 0.0004986648924892867,
+  "meseta_local_001": true
+}

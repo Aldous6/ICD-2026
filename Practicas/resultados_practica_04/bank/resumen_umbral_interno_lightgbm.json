@@ -1,0 +1,10 @@
+{
+  "modelo": "Umbral interno: LightGBM",
+  "f1_media": 0.7161024032780909,
+  "f1_desv": 0.005683883055173494,
+  "sensibilidad_media": 0.5663793103448276,
+  "sensibilidad_desv": 0.012763825534341432,
+  "entrenamiento_media_s": 13.605126476287841,
+  "entrenamiento_total_s": 68.02563238143921,
+  "busqueda_s": 0.0
+}

@@ -1,0 +1,10 @@
+{
+  "modelo": "Árbol sin límite",
+  "f1_media": 0.5945945420807334,
+  "f1_desv": 0.019074438431368933,
+  "sensibilidad_media": 0.3779527559055118,
+  "sensibilidad_desv": 0.06224956023953503,
+  "entrenamiento_media_s": 0.5152594566345214,
+  "entrenamiento_total_s": 2.5762972831726074,
+  "busqueda_s": 0.0
+}

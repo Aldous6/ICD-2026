@@ -1,0 +1,10 @@
+{
+  "modelo": "Votación suave",
+  "f1_media": 0.6690372180495398,
+  "f1_desv": 0.01562856839044695,
+  "sensibilidad_media": 0.3669291338582677,
+  "sensibilidad_desv": 0.03591103701099647,
+  "entrenamiento_media_s": 3.9428547859191894,
+  "entrenamiento_total_s": 19.714273929595947,
+  "busqueda_s": 0.0
+}

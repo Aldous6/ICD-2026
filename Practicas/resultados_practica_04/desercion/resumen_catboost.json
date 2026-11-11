@@ -1,0 +1,10 @@
+{
+  "modelo": "CatBoost",
+  "f1_media": 0.6916059054135684,
+  "f1_desv": 0.013276319544724701,
+  "sensibilidad_media": 0.5889763779527559,
+  "sensibilidad_desv": 0.04770120072712113,
+  "entrenamiento_media_s": 7.6362231254577635,
+  "entrenamiento_total_s": 38.18111562728882,
+  "busqueda_s": 134.82002049999983
+}

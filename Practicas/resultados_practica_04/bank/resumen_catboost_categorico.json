@@ -1,0 +1,10 @@
+{
+  "modelo": "CatBoost categórico",
+  "f1_media": 0.7163453373602965,
+  "f1_desv": 0.006424943545338342,
+  "sensibilidad_media": 0.5314655172413794,
+  "sensibilidad_desv": 0.0177622035639134,
+  "entrenamiento_media_s": 47.15939884185791,
+  "entrenamiento_total_s": 235.79699420928955,
+  "busqueda_s": 0.0
+}

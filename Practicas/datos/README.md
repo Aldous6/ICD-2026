@@ -40,3 +40,11 @@ Se deben conservar los archivos originales y sus identificadores. El notebook ob
 La versión refinada del [notebook](../practica_03_clasificacion_desercion.ipynb) se ejecutó completa el 4 de noviembre de 2026 y conserva sus salidas. Incluye la comparación actualizada con el segundo semestre y generó [predicciones_desercion.csv](../predicciones_desercion.csv), con 885 filas y las columnas `id` y `Target`, cuyas etiquetas son `dropout`, `enrolled` o `graduate`. El SHA-256 del CSV vigente es `7342df54d15f7f9c7184e76b2428c50fe283b02a6ae8260ed928298acbcebc40`, registrado también en [metadatos.json](../resultados_practica_03/metadatos.json).
 
 La [referencia inicial](../resultados_practica_03/referencia_inicial/) conserva las predicciones y los resultados anteriores al refinamiento. El CSV archivado `predicciones_iniciales.csv` tiene SHA-256 `22487ffd177e0a3b8f57b7eb1b4f2e9b60e49903de4dab631c14b31f0d0bdd3e`; [huellas.json](../resultados_practica_03/referencia_inicial/huellas.json) registra también las demás copias. Las predicciones no son las etiquetas verdaderas de prueba; su F1 se desconoce.
+
+# Datos de la práctica 04: Bank Marketing
+
+`bank-additional-full.csv` y `bank-additional-names.txt` son los miembros originales de `bank-additional.zip`, incluido en el [paquete oficial de UCI](https://archive.ics.uci.edu/static/public/222/bank+marketing.zip). Se descargaron el 7 de noviembre de 2026 sin modificar sus bytes. La variante completa contiene 41,188 filas, 20 atributos y el objetivo `y`. No debe confundirse con `bank-full.csv`, de otra versión. La práctica conserva el archivo y elimina `duration` únicamente en memoria.
+
+Referencia: Moro, S., Rita, P. y Cortez, P. (2014). *Bank Marketing*. UCI Machine Learning Repository. [DOI: 10.24432/C5K306](https://doi.org/10.24432/C5K306). Licencia [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), indicada en la [ficha de UCI](https://archive.ics.uci.edu/dataset/222/bank+marketing). La descripción incluida documenta las variables y el orden temporal; se conserva `unknown` como categoría original.
+
+SHA-256 de `bank-additional-full.csv`: `74adfc578bf77a7ff4bb1ba4a9f8709d9e3c6907342959c2c8416847e0afb4d8`.

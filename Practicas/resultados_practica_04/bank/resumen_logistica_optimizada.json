@@ -1,0 +1,10 @@
+{
+  "modelo": "Logística optimizada",
+  "f1_media": 0.7063441774389329,
+  "f1_desv": 0.006251238382169976,
+  "sensibilidad_media": 0.5624999999999999,
+  "sensibilidad_desv": 0.012167661412323498,
+  "entrenamiento_media_s": 1.9510971546173095,
+  "entrenamiento_total_s": 9.755485773086548,
+  "busqueda_s": 245.4076912999999
+}

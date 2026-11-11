@@ -1,0 +1,10 @@
+{
+  "modelo": "Bagging 400",
+  "f1_media": 0.657106977228328,
+  "f1_desv": 0.019020672050342458,
+  "sensibilidad_media": 0.3181102362204724,
+  "sensibilidad_desv": 0.04904696536188169,
+  "entrenamiento_media_s": 32.4882089138031,
+  "entrenamiento_total_s": 162.4410445690155,
+  "busqueda_s": 0.0
+}

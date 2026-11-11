@@ -1,0 +1,29 @@
+{
+  "parametros": {
+    "pre__cat__codificar": {
+      "clase": "sklearn.preprocessing._encoders.OneHotEncoder",
+      "parametros": {
+        "categories": "auto",
+        "drop": null,
+        "dtype": "numpy.float64",
+        "feature_name_combiner": "concat",
+        "handle_unknown": "ignore",
+        "max_categories": null,
+        "min_frequency": null,
+        "sparse_output": false
+      }
+    },
+    "modelo__n_estimators": 200,
+    "modelo__min_samples_leaf": 4,
+    "modelo__max_features": 1.0,
+    "modelo__max_depth": 12,
+    "modelo__criterion": "entropy",
+    "modelo__class_weight": "balanced_subsample",
+    "modelo__bootstrap": true
+  },
+  "configuraciones_distintas": 50,
+  "mejor_f1_seleccion": 0.706831865517548,
+  "busqueda_s": 912.2195112999998,
+  "ganancia_ultimas_20": 0.0021893954127777393,
+  "meseta_local_001": false
+}

@@ -1,0 +1,10 @@
+{
+  "modelo": "Regresión logística balanceada",
+  "f1_media": 0.6739460493921812,
+  "f1_desv": 0.004504705560356976,
+  "sensibilidad_media": 0.6286637931034482,
+  "sensibilidad_desv": 0.006492401004910389,
+  "entrenamiento_media_s": 1.8827621936798096,
+  "entrenamiento_total_s": 9.413810968399048,
+  "busqueda_s": 0.0
+}

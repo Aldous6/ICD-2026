@@ -2,5 +2,8 @@
 Practicas/datos/default_credit_card_clients.csv -text
 Practicas/datos/desercion-entrenamiento.csv -text
 Practicas/datos/desercion-prueba.csv -text
+Practicas/datos/bank-additional-full.csv -text
+Practicas/datos/bank-additional-names.txt -text
+Practicas/*.joblib binary
 Practicas/predicciones_desercion.csv -text
 Practicas/resultados_practica_03/referencia_inicial/* -text

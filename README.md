@@ -7,3 +7,5 @@ Este repositorio reúne materiales de la asignatura y los organiza según su pro
 Si buscas una entrega, consulta el [README de Prácticas](Practicas/README.md) o el [README de Tareas](Tareas/README.md). Las carpetas de Lecturas y Proyecto aún no tienen contenido.
 
 La [práctica 03 de clasificación de deserción](Practicas/practica_03_clasificacion_desercion.ipynb) compara cinco clasificadores con validación cruzada anidada y genera las predicciones para la división de prueba del curso. Los datos, los requisitos y las instrucciones están en [README exclusivo de la práctica 03](Practicas/README_practica_03.md).
+
+La [práctica 04 de meta aprendizaje](Practicas/practica_04_metaaprendizaje.ipynb) reutiliza esas configuraciones para comparar ensambles y buscar un modelo para Bank Marketing. Sus datos, dependencias, método y archivos de entrega se describen en [README de la práctica 04](Practicas/README_practica_04.md).

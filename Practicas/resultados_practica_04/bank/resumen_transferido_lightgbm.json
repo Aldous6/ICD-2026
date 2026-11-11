@@ -1,0 +1,10 @@
+{
+  "modelo": "Transferido: LightGBM",
+  "f1_media": 0.6958901643088778,
+  "f1_desv": 0.0045903434132011185,
+  "sensibilidad_media": 0.6308189655172414,
+  "sensibilidad_desv": 0.00944349237077871,
+  "entrenamiento_media_s": 1.1996293544769288,
+  "entrenamiento_total_s": 5.9981467723846436,
+  "busqueda_s": 0.0
+}

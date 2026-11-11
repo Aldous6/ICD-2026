@@ -1,0 +1,10 @@
+{
+  "modelo": "Votación dura",
+  "f1_media": 0.687580301571505,
+  "f1_desv": 0.009938891086120743,
+  "sensibilidad_media": 0.48346456692913387,
+  "sensibilidad_desv": 0.01430385994061807,
+  "entrenamiento_media_s": 3.315890073776245,
+  "entrenamiento_total_s": 16.579450368881226,
+  "busqueda_s": 0.0
+}
